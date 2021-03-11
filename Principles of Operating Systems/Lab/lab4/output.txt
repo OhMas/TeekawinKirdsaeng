@@ -1,0 +1,1785 @@
+Script started on 2020-04-23 23:36:04+0700
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cd /
+]0;root@ohmaz-VirtualBox: /[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/[00m# ls -l /bin
+total 12480
+-rwxr-xr-x 1 root root 1113504 มิ.ย.   7  2019 [0m[01;32mbash[0m
+-rwxr-xr-x 1 root root  748968 ส.ค.  29  2018 [01;32mbrltty[0m
+-rwxr-xr-x 1 root root   34888 ก.ค.   4  2019 [01;32mbunzip2[0m
+-rwxr-xr-x 1 root root 2062296 มี.ค.   7  2019 [01;32mbusybox[0m
+-rwxr-xr-x 1 root root   34888 ก.ค.   4  2019 [01;32mbzcat[0m
+lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 [01;36mbzcmp[0m -> [01;32mbzdiff[0m
+-rwxr-xr-x 1 root root    2140 ก.ค.   4  2019 [01;32mbzdiff[0m
+lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 [01;36mbzegrep[0m -> [01;32mbzgrep[0m
+-rwxr-xr-x 1 root root    4877 ก.ค.   4  2019 [01;32mbzexe[0m
+lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 [01;36mbzfgrep[0m -> [01;32mbzgrep[0m
+-rwxr-xr-x 1 root root    3642 ก.ค.   4  2019 [01;32mbzgrep[0m
+-rwxr-xr-x 1 root root   34888 ก.ค.   4  2019 [01;32mbzip2[0m
+-rwxr-xr-x 1 root root   14328 ก.ค.   4  2019 [01;32mbzip2recover[0m
+lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 [01;36mbzless[0m -> [01;32mbzmore[0m
+-rwxr-xr-x 1 root root    1297 ก.ค.   4  2019 [01;32mbzmore[0m
+-rwxr-xr-x 1 root root   35064 ม.ค.  18  2018 [01;32mcat[0m
+-rwxr-xr-x 1 root root   14328 เม.ย. 22  2017 [01;32mchacl[0m
+-rwxr-xr-x 1 root root   63672 ม.ค.  18  2018 [01;32mchgrp[0m
+-rwxr-xr-x 1 root root   59608 ม.ค.  18  2018 [01;32mchmod[0m
+-rwxr-xr-x 1 root root   67768 ม.ค.  18  2018 [01;32mchown[0m
+-rwxr-xr-x 1 root root   10312 ม.ค.  22  2018 [01;32mchvt[0m
+-rwxr-xr-x 1 root root  141528 ม.ค.  18  2018 [01;32mcp[0m
+-rwxr-xr-x 1 root root  157224 พ.ย.   6 01:09 [01;32mcpio[0m
+-rwxr-xr-x 1 root root  121432 ม.ค.  25  2018 [01;32mdash[0m
+-rwxr-xr-x 1 root root  100568 ม.ค.  18  2018 [01;32mdate[0m
+-rwxr-xr-x 1 root root   76000 ม.ค.  18  2018 [01;32mdd[0m
+-rwxr-xr-x 1 root root   84776 ม.ค.  18  2018 [01;32mdf[0m
+-rwxr-xr-x 1 root root  133792 ม.ค.  18  2018 [01;32mdir[0m
+-rwxr-xr-x 1 root root   72000 ม.ค.   9 01:31 [01;32mdmesg[0m
+lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 [01;36mdnsdomainname[0m -> [01;32mhostname[0m
+lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 [01;36mdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root  170520 ม.ค.  22  2018 [01;32mdumpkeys[0m
+-rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 [01;32mecho[0m
+-rwxr-xr-x 1 root root   51512 เม.ย. 27  2016 [01;32med[0m
+-rwxr-xr-x 1 root root   18424 เม.ย. 21  2017 [01;32mefibootdump[0m
+-rwxr-xr-x 1 root root   40056 เม.ย. 21  2017 [01;32mefibootmgr[0m
+-rwxr-xr-x 1 root root      28 ก.ย.  18  2019 [01;32megrep[0m
+-rwxr-xr-x 1 root root   30904 ม.ค.  18  2018 [01;32mfalse[0m
+-rwxr-xr-x 1 root root   10312 ม.ค.  22  2018 [01;32mfgconsole[0m
+-rwxr-xr-x 1 root root      28 ก.ย.  18  2019 [01;32mfgrep[0m
+-rwxr-xr-x 1 root root   64784 ม.ค.   9 01:31 [01;32mfindmnt[0m
+-rwxr-xr-x 1 root root   35928 ธ.ค.  11  2018 [01;32mfuser[0m
+-rwsr-xr-x 1 root root   30800 ส.ค.  11  2016 [37;41mfusermount[0m
+-rwxr-xr-x 1 root root   23160 เม.ย. 22  2017 [01;32mgetfacl[0m
+-rwxr-xr-x 1 root root  219456 ก.ย.  18  2019 [01;32mgrep[0m
+-rwxr-xr-x 1 root root    2301 เม.ย. 28  2017 [01;32mgunzip[0m
+-rwxr-xr-x 1 root root    5927 เม.ย. 28  2017 [01;32mgzexe[0m
+-rwxr-xr-x 1 root root  101560 เม.ย. 28  2017 [01;32mgzip[0m
+-rwxr-xr-x 1 root root  196632 ม.ค.   6 15:30 [01;32mhciconfig[0m
+-rwxr-xr-x 1 root root   18504 ม.ค.  31  2018 [01;32mhostname[0m
+-rwxr-xr-x 1 root root  554104 ก.พ.  26  2018 [01;32mip[0m
+-rwxr-xr-x 1 root root   63576 พ.ย.  15 22:01 [01;32mjournalctl[0m
+-rwxr-xr-x 1 root root   10312 ม.ค.  22  2018 [01;32mkbd_mode[0m
+-rwxr-xr-x 1 root root   26704 ส.ค.   9  2019 [01;32mkill[0m
+-rwxr-xr-x 1 root root  149688 พ.ย.  13  2018 [01;32mkmod[0m
+-rwxr-xr-x 1 root root  170760 ธ.ค.   1  2017 [01;32mless[0m
+-rwxr-xr-x 1 root root   10256 ธ.ค.   1  2017 [01;32mlessecho[0m
+lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 [01;36mlessfile[0m -> [01;32mlesspipe[0m
+-rwxr-xr-x 1 root root   19856 ธ.ค.   1  2017 [01;32mlesskey[0m
+-rwxr-xr-x 1 root root    8564 ธ.ค.   1  2017 [01;32mlesspipe[0m
+-rwxr-xr-x 1 root root   67808 ม.ค.  18  2018 [01;32mln[0m
+-rwxr-xr-x 1 root root  211528 ม.ค.  22  2018 [01;32mloadkeys[0m
+-rwxr-xr-x 1 root root   52664 มี.ค.  23  2019 [01;32mlogin[0m
+-rwxr-xr-x 1 root root   51280 พ.ย.  15 22:01 [01;32mloginctl[0m
+-rwxr-xr-x 1 root root  109232 มี.ค.  22  2019 [01;32mlowntfs-3g[0m
+-rwxr-xr-x 1 root root  133792 ม.ค.  18  2018 [01;32mls[0m
+-rwxr-xr-x 1 root root   84048 ม.ค.   9 01:31 [01;32mlsblk[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36mlsmod[0m -> [01;32mkmod[0m
+-rwxr-xr-x 1 root root   80056 ม.ค.  18  2018 [01;32mmkdir[0m
+-rwxr-xr-x 1 root root   67768 ม.ค.  18  2018 [01;32mmknod[0m
+-rwxr-xr-x 1 root root   43192 ม.ค.  18  2018 [01;32mmktemp[0m
+-rwxr-xr-x 1 root root   38952 ม.ค.   9 01:31 [01;32mmore[0m
+-rwsr-xr-x 1 root root   43088 ม.ค.   9 01:31 [37;41mmount[0m
+-rwxr-xr-x 1 root root   14408 ม.ค.   9 01:31 [01;32mmountpoint[0m
+lrwxrwxrwx 1 root root      20 เม.ย. 22 16:23 [01;36mmt[0m -> [01;32m/etc/alternatives/mt[0m
+-rwxr-xr-x 1 root root   80512 พ.ย.   6 01:09 [01;32mmt-gnu[0m
+-rwxr-xr-x 1 root root  137440 ม.ค.  18  2018 [01;32mmv[0m
+-rwxr-xr-x 1 root root  245872 มี.ค.   6  2018 [01;32mnano[0m
+lrwxrwxrwx 1 root root      20 เม.ย. 22 16:23 [01;36mnc[0m -> [01;32m/etc/alternatives/nc[0m
+-rwxr-xr-x 1 root root   35312 พ.ค.  14  2018 [01;32mnc.openbsd[0m
+lrwxrwxrwx 1 root root      24 เม.ย. 22 16:23 [01;36mnetcat[0m -> [01;32m/etc/alternatives/netcat[0m
+-rwxr-xr-x 1 root root   43080 พ.ย.  15 22:01 [01;32mnetworkctl[0m
+lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 [01;36mnisdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root  146128 มี.ค.  22  2019 [01;32mntfs-3g[0m
+-rwxr-xr-x 1 root root   10312 มี.ค.  22  2019 [01;32mntfs-3g.probe[0m
+-rwxr-xr-x 1 root root   26728 มี.ค.  22  2019 [01;32mntfscat[0m
+-rwxr-xr-x 1 root root   34920 มี.ค.  22  2019 [01;32mntfscluster[0m
+-rwxr-xr-x 1 root root   34920 มี.ค.  22  2019 [01;32mntfscmp[0m
+-rwxr-xr-x 1 root root   34928 มี.ค.  22  2019 [01;32mntfsfallocate[0m
+-rwxr-xr-x 1 root root   43120 มี.ค.  22  2019 [01;32mntfsfix[0m
+-rwxr-xr-x 1 root root   55416 มี.ค.  22  2019 [01;32mntfsinfo[0m
+-rwxr-xr-x 1 root root   31928 มี.ค.  22  2019 [01;32mntfsls[0m
+-rwxr-xr-x 1 root root   30824 มี.ค.  22  2019 [01;32mntfsmove[0m
+-rwxr-xr-x 1 root root  116840 มี.ค.  22  2019 [01;32mntfsrecover[0m
+-rwxr-xr-x 1 root root   88672 มี.ค.  22  2019 [01;32mntfssecaudit[0m
+-rwxr-xr-x 1 root root   38944 มี.ค.  22  2019 [01;32mntfstruncate[0m
+-rwxr-xr-x 1 root root   30744 มี.ค.  22  2019 [01;32mntfsusermap[0m
+-rwxr-xr-x 1 root root   47752 มี.ค.  22  2019 [01;32mntfswipe[0m
+lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 [01;36mopen[0m -> [01;32mopenvt[0m
+-rwxr-xr-x 1 root root   18872 ม.ค.  22  2018 [01;32mopenvt[0m
+lrwxrwxrwx 1 root root      14 เม.ย. 22 16:23 [01;36mpidof[0m -> [01;32m/sbin/killall5[0m
+-rwsr-xr-x 1 root root   64424 มิ.ย.  28  2019 [37;41mping[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36mping4[0m -> [37;41mping[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36mping6[0m -> [37;41mping[0m
+-rwxr-xr-x 1 root root   38904 เม.ย.  4  2019 [01;32mplymouth[0m
+-rwxr-xr-x 1 root root  133432 ส.ค.   9  2019 [01;32mps[0m
+-rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 [01;32mpwd[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36mrbash[0m -> [01;32mbash[0m
+-rwxr-xr-x 1 root root   43192 ม.ค.  18  2018 [01;32mreadlink[0m
+-rwxr-xr-x 1 root root      89 เม.ย. 27  2016 [01;32mred[0m
+-rwxr-xr-x 1 root root   63704 ม.ค.  18  2018 [01;32mrm[0m
+-rwxr-xr-x 1 root root   43192 ม.ค.  18  2018 [01;32mrmdir[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36mrnano[0m -> [01;32mnano[0m
+-rwxr-xr-x 1 root root   18760 ธ.ค.  31  2017 [01;32mrun-parts[0m
+-rwxr-xr-x 1 root root  109000 ม.ค.  30  2018 [01;32msed[0m
+-rwxr-xr-x 1 root root   35512 เม.ย. 22  2017 [01;32msetfacl[0m
+-rwxr-xr-x 1 root root   43144 ม.ค.  22  2018 [01;32msetfont[0m
+-rwxr-xr-x 1 root root   39103 เม.ย. 23  2019 [01;32msetupcon[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36msh[0m -> [01;32mdash[0m
+lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 [01;36msh.distrib[0m -> [01;32mdash[0m
+-rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 [01;32msleep[0m
+-rwxr-xr-x 1 root root  139904 ก.พ.  26  2018 [01;32mss[0m
+lrwxrwxrwx 1 root root       7 เม.ย. 22 16:23 [01;36mstatic-sh[0m -> [01;32mbusybox[0m
+-rwxr-xr-x 1 root root   75992 ม.ค.  18  2018 [01;32mstty[0m
+-rwsr-xr-x 1 root root   44664 มี.ค.  23  2019 [37;41msu[0m
+-rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 [01;32msync[0m
+-rwxr-xr-x 1 root root  182352 พ.ย.  15 22:01 [01;32msystemctl[0m
+lrwxrwxrwx 1 root root      20 เม.ย. 22 16:23 [01;36msystemd[0m -> [01;32m/lib/systemd/systemd[0m
+-rwxr-xr-x 1 root root   10320 พ.ย.  15 22:01 [01;32msystemd-ask-password[0m
+-rwxr-xr-x 1 root root   14400 พ.ย.  15 22:01 [01;32msystemd-escape[0m
+-rwxr-xr-x 1 root root   84328 พ.ย.  15 22:01 [01;32msystemd-hwdb[0m
+-rwxr-xr-x 1 root root   14416 พ.ย.  15 22:01 [01;32msystemd-inhibit[0m
+-rwxr-xr-x 1 root root   18496 พ.ย.  15 22:01 [01;32msystemd-machine-id-setup[0m
+-rwxr-xr-x 1 root root   14408 พ.ย.  15 22:01 [01;32msystemd-notify[0m
+-rwxr-xr-x 1 root root   43080 พ.ย.  15 22:01 [01;32msystemd-sysusers[0m
+-rwxr-xr-x 1 root root   71752 พ.ย.  15 22:01 [01;32msystemd-tmpfiles[0m
+-rwxr-xr-x 1 root root   26696 พ.ย.  15 22:01 [01;32msystemd-tty-ask-password-agent[0m
+-rwxr-xr-x 1 root root  423312 ม.ค.  21  2019 [01;32mtar[0m
+-rwxr-xr-x 1 root root   10104 ธ.ค.  31  2017 [01;32mtempfile[0m
+-rwxr-xr-x 1 root root   88280 ม.ค.  18  2018 [01;32mtouch[0m
+-rwxr-xr-x 1 root root   30904 ม.ค.  18  2018 [01;32mtrue[0m
+-rwxr-xr-x 1 root root  584072 พ.ย.  15 22:01 [01;32mudevadm[0m
+-rwxr-xr-x 1 root root   14328 ส.ค.  11  2016 [01;32mulockmgr_server[0m
+-rwsr-xr-x 1 root root   26696 ม.ค.   9 01:31 [37;41mumount[0m
+-rwxr-xr-x 1 root root   35032 ม.ค.  18  2018 [01;32muname[0m
+-rwxr-xr-x 1 root root    2301 เม.ย. 28  2017 [01;32muncompress[0m
+-rwxr-xr-x 1 root root    2762 ม.ค.  22  2018 [01;32municode_start[0m
+-rwxr-xr-x 1 root root  133792 ม.ค.  18  2018 [01;32mvdir[0m
+-rwxr-xr-x 1 root root   30800 ม.ค.   9 01:31 [01;32mwdctl[0m
+-rwxr-xr-x 1 root root     946 ธ.ค.  31  2017 [01;32mwhich[0m
+-rwxr-xr-x 1 root root   26632 ม.ค.  12  2018 [01;32mwhiptail[0m
+lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 [01;36mypdomainname[0m -> [01;32mhostname[0m
+-rwxr-xr-x 1 root root    1937 เม.ย. 28  2017 [01;32mzcat[0m
+-rwxr-xr-x 1 root root    1777 เม.ย. 28  2017 [01;32mzcmp[0m
+-rwxr-xr-x 1 root root    5764 เม.ย. 28  2017 [01;32mzdiff[0m
+-rwxr-xr-x 1 root root     140 เม.ย. 28  2017 [01;32mzegrep[0m
+-rwxr-xr-x 1 root root     140 เม.ย. 28  2017 [01;32mzfgrep[0m
+-rwxr-xr-x 1 root root    2131 เม.ย. 28  2017 [01;32mzforce[0m
+-rwxr-xr-x 1 root root    5938 เม.ย. 28  2017 [01;32mzgrep[0m
+-rwxr-xr-x 1 root root    2037 เม.ย. 28  2017 [01;32mzless[0m
+-rwxr-xr-x 1 root root    1910 เม.ย. 28  2017 [01;32mzmore[0m
+-rwxr-xr-x 1 root root    5047 เม.ย. 28  2017 [01;32mznew[0m
+]0;root@ohmaz-VirtualBox: /[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/[00m# ls -al /bin | more
+total 12488
+drwxr-xr-x  2 root root    4096 เม.ย. 22 16:45 .
+drwxr-xr-x 24 root root    4096 เม.ย. 22 16:43 ..
+-rwxr-xr-x  1 root root 1113504 มิ.ย.   7  2019 bash
+-rwxr-xr-x  1 root root  748968 ส.ค.  29  2018 brltty
+-rwxr-xr-x  1 root root   34888 ก.ค.   4  2019 bunzip2
+-rwxr-xr-x  1 root root 2062296 มี.ค.   7  2019 busybox
+-rwxr-xr-x  1 root root   34888 ก.ค.   4  2019 bzcat
+lrwxrwxrwx  1 root root       6 เม.ย. 22 16:23 bzcmp -> bzdiff
+-rwxr-xr-x  1 root root    2140 ก.ค.   4  2019 bzdiff
+lrwxrwxrwx  1 root root       6 เม.ย. 22 16:23 bzegrep -> bzgrep
+-rwxr-xr-x  1 root root    4877 ก.ค.   4  2019 bzexe
+lrwxrwxrwx  1 root root       6 เม.ย. 22 16:23 bzfgrep -> bzgrep
+-rwxr-xr-x  1 root root    3642 ก.ค.   4  2019 bzgrep
+-rwxr-xr-x  1 root root   34888 ก.ค.   4  2019 bzip2
+-rwxr-xr-x  1 root root   14328 ก.ค.   4  2019 bzip2recover
+lrwxrwxrwx  1 root root       6 เม.ย. 22 16:23 bzless -> bzmore
+-rwxr-xr-x  1 root root    1297 ก.ค.   4  2019 bzmore
+-rwxr-xr-x  1 root root   35064 ม.ค.  18  2018 cat
+-rwxr-xr-x  1 root root   14328 เม.ย. 22  2017 chacl
+-rwxr-xr-x  1 root root   63672 ม.ค.  18  2018 chgrp
+-rwxr-xr-x  1 root root   59608 ม.ค.  18  2018 chmod
+-rwxr-xr-x  1 root root   67768 ม.ค.  18  2018 chown
+-rwxr-xr-x  1 root root   10312 ม.ค.  22  2018 chvt
+-rwxr-xr-x  1 root root  141528 ม.ค.  18  2018 cp
+-rwxr-xr-x  1 root root  157224 พ.ย.   6 01:09 cpio
+-rwxr-xr-x  1 root root  121432 ม.ค.  25  2018 dash
+[7m--More--[27m[K
+...skipping 1 line
+-rwxr-xr-x  1 root root   76000 ม.ค.  18  2018 dd
+-rwxr-xr-x  1 root root   84776 ม.ค.  18  2018 df
+-rwxr-xr-x  1 root root  133792 ม.ค.  18  2018 dir
+-rwxr-xr-x  1 root root   72000 ม.ค.   9 01:31 dmesg
+lrwxrwxrwx  1 root root       8 เม.ย. 22 16:23 dnsdomainname -> hostname
+lrwxrwxrwx  1 root root       8 เม.ย. 22 16:23 domainname -> hostname
+-rwxr-xr-x  1 root root  170520 ม.ค.  22  2018 dumpkeys
+-rwxr-xr-x  1 root root   35000 ม.ค.  18  2018 echo
+-rwxr-xr-x  1 root root   51512 เม.ย. 27  2016 ed
+-rwxr-xr-x  1 root root   18424 เม.ย. 21  2017 efibootdump
+-rwxr-xr-x  1 root root   40056 เม.ย. 21  2017 efibootmgr
+-rwxr-xr-x  1 root root      28 ก.ย.  18  2019 egrep
+-rwxr-xr-x  1 root root   30904 ม.ค.  18  2018 false
+-rwxr-xr-x  1 root root   10312 ม.ค.  22  2018 fgconsole
+-rwxr-xr-x  1 root root      28 ก.ย.  18  2019 fgrep
+-rwxr-xr-x  1 root root   64784 ม.ค.   9 01:31 findmnt
+-rwxr-xr-x  1 root root   35928 ธ.ค.  11  2018 fuser
+-rwsr-xr-x  1 root root   30800 ส.ค.  11  2016 fusermount
+-rwxr-xr-x  1 root root   23160 เม.ย. 22  2017 getfacl
+-rwxr-xr-x  1 root root  219456 ก.ย.  18  2019 grep
+-rwxr-xr-x  1 root root    2301 เม.ย. 28  2017 gunzip
+-rwxr-xr-x  1 root root    5927 เม.ย. 28  2017 gzexe
+-rwxr-xr-x  1 root root  101560 เม.ย. 28  2017 gzip
+-rwxr-xr-x  1 root root  196632 ม.ค.   6 15:30 hciconfig
+-rwxr-xr-x  1 root root   18504 ม.ค.  31  2018 hostname
+-rwxr-xr-x  1 root root  554104 ก.พ.  26  2018 ip
+-rwxr-xr-x  1 root root   63576 พ.ย.  15 22:01 journalctl
+[7m--More--[27m-rwxr-xr-x  1 root root   10312 ม.ค.  22  2018 kbd_mode
+-rwxr-xr-x  1 root root   26704 ส.ค.   9  2019 kill
+-rwxr-xr-x  1 root root  149688 พ.ย.  13  2018 kmod
+-rwxr-xr-x  1 root root  170760 ธ.ค.   1  2017 less
+-rwxr-xr-x  1 root root   10256 ธ.ค.   1  2017 lessecho
+lrwxrwxrwx  1 root root       8 เม.ย. 22 16:23 lessfile -> lesspipe
+-rwxr-xr-x  1 root root   19856 ธ.ค.   1  2017 lesskey
+-rwxr-xr-x  1 root root    8564 ธ.ค.   1  2017 lesspipe
+-rwxr-xr-x  1 root root   67808 ม.ค.  18  2018 ln
+-rwxr-xr-x  1 root root  211528 ม.ค.  22  2018 loadkeys
+-rwxr-xr-x  1 root root   52664 มี.ค.  23  2019 login
+-rwxr-xr-x  1 root root   51280 พ.ย.  15 22:01 loginctl
+-rwxr-xr-x  1 root root  109232 มี.ค.  22  2019 lowntfs-3g
+-rwxr-xr-x  1 root root  133792 ม.ค.  18  2018 ls
+-rwxr-xr-x  1 root root   84048 ม.ค.   9 01:31 lsblk
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 lsmod -> kmod
+-rwxr-xr-x  1 root root   80056 ม.ค.  18  2018 mkdir
+-rwxr-xr-x  1 root root   67768 ม.ค.  18  2018 mknod
+-rwxr-xr-x  1 root root   43192 ม.ค.  18  2018 mktemp
+-rwxr-xr-x  1 root root   38952 ม.ค.   9 01:31 more
+-rwsr-xr-x  1 root root   43088 ม.ค.   9 01:31 mount
+-rwxr-xr-x  1 root root   14408 ม.ค.   9 01:31 mountpoint
+lrwxrwxrwx  1 root root      20 เม.ย. 22 16:23 mt -> /etc/alternatives/mt
+-rwxr-xr-x  1 root root   80512 พ.ย.   6 01:09 mt-gnu
+-rwxr-xr-x  1 root root  137440 ม.ค.  18  2018 mv
+-rwxr-xr-x  1 root root  245872 มี.ค.   6  2018 nano
+lrwxrwxrwx  1 root root      20 เม.ย. 22 16:23 nc -> /etc/alternatives/nc
+[7m--More--[27m-rwxr-xr-x  1 root root   35312 พ.ค.  14  2018 nc.openbsd
+lrwxrwxrwx  1 root root      24 เม.ย. 22 16:23 netcat -> /etc/alternatives/netc
+at
+-rwxr-xr-x  1 root root   43080 พ.ย.  15 22:01 networkctl
+lrwxrwxrwx  1 root root       8 เม.ย. 22 16:23 nisdomainname -> hostname
+-rwxr-xr-x  1 root root  146128 มี.ค.  22  2019 ntfs-3g
+-rwxr-xr-x  1 root root   10312 มี.ค.  22  2019 ntfs-3g.probe
+-rwxr-xr-x  1 root root   26728 มี.ค.  22  2019 ntfscat
+-rwxr-xr-x  1 root root   34920 มี.ค.  22  2019 ntfscluster
+-rwxr-xr-x  1 root root   34920 มี.ค.  22  2019 ntfscmp
+-rwxr-xr-x  1 root root   34928 มี.ค.  22  2019 ntfsfallocate
+-rwxr-xr-x  1 root root   43120 มี.ค.  22  2019 ntfsfix
+-rwxr-xr-x  1 root root   55416 มี.ค.  22  2019 ntfsinfo
+-rwxr-xr-x  1 root root   31928 มี.ค.  22  2019 ntfsls
+-rwxr-xr-x  1 root root   30824 มี.ค.  22  2019 ntfsmove
+-rwxr-xr-x  1 root root  116840 มี.ค.  22  2019 ntfsrecover
+-rwxr-xr-x  1 root root   88672 มี.ค.  22  2019 ntfssecaudit
+-rwxr-xr-x  1 root root   38944 มี.ค.  22  2019 ntfstruncate
+-rwxr-xr-x  1 root root   30744 มี.ค.  22  2019 ntfsusermap
+-rwxr-xr-x  1 root root   47752 มี.ค.  22  2019 ntfswipe
+lrwxrwxrwx  1 root root       6 เม.ย. 22 16:23 open -> openvt
+-rwxr-xr-x  1 root root   18872 ม.ค.  22  2018 openvt
+lrwxrwxrwx  1 root root      14 เม.ย. 22 16:23 pidof -> /sbin/killall5
+-rwsr-xr-x  1 root root   64424 มิ.ย.  28  2019 ping
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 ping4 -> ping
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 ping6 -> ping
+-rwxr-xr-x  1 root root   38904 เม.ย.  4  2019 plymouth
+[7m--More--[27m-rwxr-xr-x  1 root root  133432 ส.ค.   9  2019 ps
+-rwxr-xr-x  1 root root   35000 ม.ค.  18  2018 pwd
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 rbash -> bash
+-rwxr-xr-x  1 root root   43192 ม.ค.  18  2018 readlink
+-rwxr-xr-x  1 root root      89 เม.ย. 27  2016 red
+-rwxr-xr-x  1 root root   63704 ม.ค.  18  2018 rm
+-rwxr-xr-x  1 root root   43192 ม.ค.  18  2018 rmdir
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 rnano -> nano
+-rwxr-xr-x  1 root root   18760 ธ.ค.  31  2017 run-parts
+-rwxr-xr-x  1 root root  109000 ม.ค.  30  2018 sed
+-rwxr-xr-x  1 root root   35512 เม.ย. 22  2017 setfacl
+-rwxr-xr-x  1 root root   43144 ม.ค.  22  2018 setfont
+-rwxr-xr-x  1 root root   39103 เม.ย. 23  2019 setupcon
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 sh -> dash
+lrwxrwxrwx  1 root root       4 เม.ย. 22 16:23 sh.distrib -> dash
+-rwxr-xr-x  1 root root   35000 ม.ค.  18  2018 sleep
+-rwxr-xr-x  1 root root  139904 ก.พ.  26  2018 ss
+lrwxrwxrwx  1 root root       7 เม.ย. 22 16:23 static-sh -> busybox
+-rwxr-xr-x  1 root root   75992 ม.ค.  18  2018 stty
+-rwsr-xr-x  1 root root   44664 มี.ค.  23  2019 su
+-rwxr-xr-x  1 root root   35000 ม.ค.  18  2018 sync
+-rwxr-xr-x  1 root root  182352 พ.ย.  15 22:01 systemctl
+lrwxrwxrwx  1 root root      20 เม.ย. 22 16:23 systemd -> /lib/systemd/systemd
+-rwxr-xr-x  1 root root   10320 พ.ย.  15 22:01 systemd-ask-password
+-rwxr-xr-x  1 root root   14400 พ.ย.  15 22:01 systemd-escape
+-rwxr-xr-x  1 root root   84328 พ.ย.  15 22:01 systemd-hwdb
+-rwxr-xr-x  1 root root   14416 พ.ย.  15 22:01 systemd-inhibit
+[7m--More--[27m-rwxr-xr-x  1 root root   18496 พ.ย.  15 22:01 systemd-machine-id-setup
+-rwxr-xr-x  1 root root   14408 พ.ย.  15 22:01 systemd-notify
+-rwxr-xr-x  1 root root   43080 พ.ย.  15 22:01 systemd-sysusers
+-rwxr-xr-x  1 root root   71752 พ.ย.  15 22:01 systemd-tmpfiles
+-rwxr-xr-x  1 root root   26696 พ.ย.  15 22:01 systemd-tty-ask-password-agent
+-rwxr-xr-x  1 root root  423312 ม.ค.  21  2019 tar
+-rwxr-xr-x  1 root root   10104 ธ.ค.  31  2017 tempfile
+-rwxr-xr-x  1 root root   88280 ม.ค.  18  2018 touch
+-rwxr-xr-x  1 root root   30904 ม.ค.  18  2018 true
+-rwxr-xr-x  1 root root  584072 พ.ย.  15 22:01 udevadm
+-rwxr-xr-x  1 root root   14328 ส.ค.  11  2016 ulockmgr_server
+-rwsr-xr-x  1 root root   26696 ม.ค.   9 01:31 umount
+-rwxr-xr-x  1 root root   35032 ม.ค.  18  2018 uname
+-rwxr-xr-x  1 root root    2301 เม.ย. 28  2017 uncompress
+-rwxr-xr-x  1 root root    2762 ม.ค.  22  2018 unicode_start
+-rwxr-xr-x  1 root root  133792 ม.ค.  18  2018 vdir
+-rwxr-xr-x  1 root root   30800 ม.ค.   9 01:31 wdctl
+-rwxr-xr-x  1 root root     946 ธ.ค.  31  2017 which
+-rwxr-xr-x  1 root root   26632 ม.ค.  12  2018 whiptail
+lrwxrwxrwx  1 root root       8 เม.ย. 22 16:23 ypdomainname -> hostname
+-rwxr-xr-x  1 root root    1937 เม.ย. 28  2017 zcat
+-rwxr-xr-x  1 root root    1777 เม.ย. 28  2017 zcmp
+-rwxr-xr-x  1 root root    5764 เม.ย. 28  2017 zdiff
+-rwxr-xr-x  1 root root     140 เม.ย. 28  2017 zegrep
+-rwxr-xr-x  1 root root     140 เม.ย. 28  2017 zfgrep
+-rwxr-xr-x  1 root root    2131 เม.ย. 28  2017 zforce
+-rwxr-xr-x  1 root root    5938 เม.ย. 28  2017 zgrep
+[7m--More--[27m-rwxr-xr-x  1 root root    2037 เม.ย. 28  2017 zless
+-rwxr-xr-x  1 root root    1910 เม.ย. 28  2017 zmore
+-rwxr-xr-x  1 root root    5047 เม.ย. 28  2017 znew
+]0;root@ohmaz-VirtualBox: /[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/[00m#             [K[K[K[K[K[K[K[K[K[K[K[K;s [K[K[Kls -il /bin | more
+total 12480
+524298 -rwxr-xr-x 1 root root 1113504 มิ.ย.   7  2019 bash
+524302 -rwxr-xr-x 1 root root  748968 ส.ค.  29  2018 brltty
+524303 -rwxr-xr-x 1 root root   34888 ก.ค.   4  2019 bunzip2
+524304 -rwxr-xr-x 1 root root 2062296 มี.ค.   7  2019 busybox
+524305 -rwxr-xr-x 1 root root   34888 ก.ค.   4  2019 bzcat
+524306 lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 bzcmp -> bzdiff
+524307 -rwxr-xr-x 1 root root    2140 ก.ค.   4  2019 bzdiff
+524308 lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 bzegrep -> bzgrep
+524309 -rwxr-xr-x 1 root root    4877 ก.ค.   4  2019 bzexe
+524310 lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 bzfgrep -> bzgrep
+524311 -rwxr-xr-x 1 root root    3642 ก.ค.   4  2019 bzgrep
+524312 -rwxr-xr-x 1 root root   34888 ก.ค.   4  2019 bzip2
+524313 -rwxr-xr-x 1 root root   14328 ก.ค.   4  2019 bzip2recover
+524314 lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 bzless -> bzmore
+524315 -rwxr-xr-x 1 root root    1297 ก.ค.   4  2019 bzmore
+524316 -rwxr-xr-x 1 root root   35064 ม.ค.  18  2018 cat
+524317 -rwxr-xr-x 1 root root   14328 เม.ย. 22  2017 chacl
+524319 -rwxr-xr-x 1 root root   63672 ม.ค.  18  2018 chgrp
+524320 -rwxr-xr-x 1 root root   59608 ม.ค.  18  2018 chmod
+524321 -rwxr-xr-x 1 root root   67768 ม.ค.  18  2018 chown
+524322 -rwxr-xr-x 1 root root   10312 ม.ค.  22  2018 chvt
+524323 -rwxr-xr-x 1 root root  141528 ม.ค.  18  2018 cp
+524324 -rwxr-xr-x 1 root root  157224 พ.ย.   6 01:09 cpio
+524325 -rwxr-xr-x 1 root root  121432 ม.ค.  25  2018 dash
+524326 -rwxr-xr-x 1 root root  100568 ม.ค.  18  2018 date
+524327 -rwxr-xr-x 1 root root   76000 ม.ค.  18  2018 dd
+[7m--More--[27m524330 -rwxr-xr-x 1 root root   84776 ม.ค.  18  2018 df
+524331 -rwxr-xr-x 1 root root  133792 ม.ค.  18  2018 dir
+524332 -rwxr-xr-x 1 root root   72000 ม.ค.   9 01:31 dmesg
+524333 lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 dnsdomainname -> hostname
+524334 lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 domainname -> hostname
+524335 -rwxr-xr-x 1 root root  170520 ม.ค.  22  2018 dumpkeys
+524336 -rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 echo
+524337 -rwxr-xr-x 1 root root   51512 เม.ย. 27  2016 ed
+524338 -rwxr-xr-x 1 root root   18424 เม.ย. 21  2017 efibootdump
+524339 -rwxr-xr-x 1 root root   40056 เม.ย. 21  2017 efibootmgr
+524340 -rwxr-xr-x 1 root root      28 ก.ย.  18  2019 egrep
+524341 -rwxr-xr-x 1 root root   30904 ม.ค.  18  2018 false
+524343 -rwxr-xr-x 1 root root   10312 ม.ค.  22  2018 fgconsole
+524344 -rwxr-xr-x 1 root root      28 ก.ย.  18  2019 fgrep
+524345 -rwxr-xr-x 1 root root   64784 ม.ค.   9 01:31 findmnt
+524346 -rwxr-xr-x 1 root root   35928 ธ.ค.  11  2018 fuser
+524347 -rwsr-xr-x 1 root root   30800 ส.ค.  11  2016 fusermount
+524349 -rwxr-xr-x 1 root root   23160 เม.ย. 22  2017 getfacl
+524350 -rwxr-xr-x 1 root root  219456 ก.ย.  18  2019 grep
+524351 -rwxr-xr-x 1 root root    2301 เม.ย. 28  2017 gunzip
+524352 -rwxr-xr-x 1 root root    5927 เม.ย. 28  2017 gzexe
+524353 -rwxr-xr-x 1 root root  101560 เม.ย. 28  2017 gzip
+524354 -rwxr-xr-x 1 root root  196632 ม.ค.   6 15:30 hciconfig
+524355 -rwxr-xr-x 1 root root   18504 ม.ค.  31  2018 hostname
+524358 -rwxr-xr-x 1 root root  554104 ก.พ.  26  2018 ip
+524359 -rwxr-xr-x 1 root root   63576 พ.ย.  15 22:01 journalctl
+524360 -rwxr-xr-x 1 root root   10312 ม.ค.  22  2018 kbd_mode
+[7m--More--[27m524361 -rwxr-xr-x 1 root root   26704 ส.ค.   9  2019 kill
+524362 -rwxr-xr-x 1 root root  149688 พ.ย.  13  2018 kmod
+524363 -rwxr-xr-x 1 root root  170760 ธ.ค.   1  2017 less
+524364 -rwxr-xr-x 1 root root   10256 ธ.ค.   1  2017 lessecho
+524365 lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 lessfile -> lesspipe
+524366 -rwxr-xr-x 1 root root   19856 ธ.ค.   1  2017 lesskey
+524367 -rwxr-xr-x 1 root root    8564 ธ.ค.   1  2017 lesspipe
+524369 -rwxr-xr-x 1 root root   67808 ม.ค.  18  2018 ln
+524370 -rwxr-xr-x 1 root root  211528 ม.ค.  22  2018 loadkeys
+524372 -rwxr-xr-x 1 root root   52664 มี.ค.  23  2019 login
+524373 -rwxr-xr-x 1 root root   51280 พ.ย.  15 22:01 loginctl
+524374 -rwxr-xr-x 1 root root  109232 มี.ค.  22  2019 lowntfs-3g
+524375 -rwxr-xr-x 1 root root  133792 ม.ค.  18  2018 ls
+524376 -rwxr-xr-x 1 root root   84048 ม.ค.   9 01:31 lsblk
+524377 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 lsmod -> kmod
+524379 -rwxr-xr-x 1 root root   80056 ม.ค.  18  2018 mkdir
+524380 -rwxr-xr-x 1 root root   67768 ม.ค.  18  2018 mknod
+524381 -rwxr-xr-x 1 root root   43192 ม.ค.  18  2018 mktemp
+524382 -rwxr-xr-x 1 root root   38952 ม.ค.   9 01:31 more
+524383 -rwsr-xr-x 1 root root   43088 ม.ค.   9 01:31 mount
+524384 -rwxr-xr-x 1 root root   14408 ม.ค.   9 01:31 mountpoint
+524385 lrwxrwxrwx 1 root root      20 เม.ย. 22 16:23 mt -> /etc/alternatives/mt
+524386 -rwxr-xr-x 1 root root   80512 พ.ย.   6 01:09 mt-gnu
+524387 -rwxr-xr-x 1 root root  137440 ม.ค.  18  2018 mv
+524388 -rwxr-xr-x 1 root root  245872 มี.ค.   6  2018 nano
+524389 lrwxrwxrwx 1 root root      20 เม.ย. 22 16:23 nc -> /etc/alternatives/nc
+524390 -rwxr-xr-x 1 root root   35312 พ.ค.  14  2018 nc.openbsd
+[7m--More--[27m524391 lrwxrwxrwx 1 root root      24 เม.ย. 22 16:23 netcat -> /etc/alternative
+s/netcat
+524392 -rwxr-xr-x 1 root root   43080 พ.ย.  15 22:01 networkctl
+524393 lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 nisdomainname -> hostname
+524394 -rwxr-xr-x 1 root root  146128 มี.ค.  22  2019 ntfs-3g
+524395 -rwxr-xr-x 1 root root   10312 มี.ค.  22  2019 ntfs-3g.probe
+524396 -rwxr-xr-x 1 root root   26728 มี.ค.  22  2019 ntfscat
+524397 -rwxr-xr-x 1 root root   34920 มี.ค.  22  2019 ntfscluster
+524398 -rwxr-xr-x 1 root root   34920 มี.ค.  22  2019 ntfscmp
+524399 -rwxr-xr-x 1 root root   34928 มี.ค.  22  2019 ntfsfallocate
+524400 -rwxr-xr-x 1 root root   43120 มี.ค.  22  2019 ntfsfix
+524401 -rwxr-xr-x 1 root root   55416 มี.ค.  22  2019 ntfsinfo
+524402 -rwxr-xr-x 1 root root   31928 มี.ค.  22  2019 ntfsls
+524403 -rwxr-xr-x 1 root root   30824 มี.ค.  22  2019 ntfsmove
+524404 -rwxr-xr-x 1 root root  116840 มี.ค.  22  2019 ntfsrecover
+524405 -rwxr-xr-x 1 root root   88672 มี.ค.  22  2019 ntfssecaudit
+524406 -rwxr-xr-x 1 root root   38944 มี.ค.  22  2019 ntfstruncate
+524407 -rwxr-xr-x 1 root root   30744 มี.ค.  22  2019 ntfsusermap
+524408 -rwxr-xr-x 1 root root   47752 มี.ค.  22  2019 ntfswipe
+524409 lrwxrwxrwx 1 root root       6 เม.ย. 22 16:23 open -> openvt
+524410 -rwxr-xr-x 1 root root   18872 ม.ค.  22  2018 openvt
+524419 lrwxrwxrwx 1 root root      14 เม.ย. 22 16:23 pidof -> /sbin/killall5
+524420 -rwsr-xr-x 1 root root   64424 มิ.ย.  28  2019 ping
+524421 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 ping4 -> ping
+524422 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 ping6 -> ping
+524423 -rwxr-xr-x 1 root root   38904 เม.ย.  4  2019 plymouth
+524425 -rwxr-xr-x 1 root root  133432 ส.ค.   9  2019 ps
+[7m--More--[27m524426 -rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 pwd
+524427 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 rbash -> bash
+524428 -rwxr-xr-x 1 root root   43192 ม.ค.  18  2018 readlink
+524429 -rwxr-xr-x 1 root root      89 เม.ย. 27  2016 red
+524431 -rwxr-xr-x 1 root root   63704 ม.ค.  18  2018 rm
+524432 -rwxr-xr-x 1 root root   43192 ม.ค.  18  2018 rmdir
+524433 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 rnano -> nano
+524434 -rwxr-xr-x 1 root root   18760 ธ.ค.  31  2017 run-parts
+524436 -rwxr-xr-x 1 root root  109000 ม.ค.  30  2018 sed
+524439 -rwxr-xr-x 1 root root   35512 เม.ย. 22  2017 setfacl
+524440 -rwxr-xr-x 1 root root   43144 ม.ค.  22  2018 setfont
+524441 -rwxr-xr-x 1 root root   39103 เม.ย. 23  2019 setupcon
+524442 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 sh -> dash
+524443 lrwxrwxrwx 1 root root       4 เม.ย. 22 16:23 sh.distrib -> dash
+524444 -rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 sleep
+524445 -rwxr-xr-x 1 root root  139904 ก.พ.  26  2018 ss
+524446 lrwxrwxrwx 1 root root       7 เม.ย. 22 16:23 static-sh -> busybox
+524447 -rwxr-xr-x 1 root root   75992 ม.ค.  18  2018 stty
+524448 -rwsr-xr-x 1 root root   44664 มี.ค.  23  2019 su
+524449 -rwxr-xr-x 1 root root   35000 ม.ค.  18  2018 sync
+524451 -rwxr-xr-x 1 root root  182352 พ.ย.  15 22:01 systemctl
+524452 lrwxrwxrwx 1 root root      20 เม.ย. 22 16:23 systemd -> /lib/systemd/sy
+stemd
+524453 -rwxr-xr-x 1 root root   10320 พ.ย.  15 22:01 systemd-ask-password
+524454 -rwxr-xr-x 1 root root   14400 พ.ย.  15 22:01 systemd-escape
+524455 -rwxr-xr-x 1 root root   84328 พ.ย.  15 22:01 systemd-hwdb
+524456 -rwxr-xr-x 1 root root   14416 พ.ย.  15 22:01 systemd-inhibit
+[7m--More--[27m524457 -rwxr-xr-x 1 root root   18496 พ.ย.  15 22:01 systemd-machine-id-setup
+524458 -rwxr-xr-x 1 root root   14408 พ.ย.  15 22:01 systemd-notify
+524459 -rwxr-xr-x 1 root root   43080 พ.ย.  15 22:01 systemd-sysusers
+524460 -rwxr-xr-x 1 root root   71752 พ.ย.  15 22:01 systemd-tmpfiles
+524461 -rwxr-xr-x 1 root root   26696 พ.ย.  15 22:01 systemd-tty-ask-password-a
+gent
+524462 -rwxr-xr-x 1 root root  423312 ม.ค.  21  2019 tar
+524463 -rwxr-xr-x 1 root root   10104 ธ.ค.  31  2017 tempfile
+524464 -rwxr-xr-x 1 root root   88280 ม.ค.  18  2018 touch
+524465 -rwxr-xr-x 1 root root   30904 ม.ค.  18  2018 true
+524466 -rwxr-xr-x 1 root root  584072 พ.ย.  15 22:01 udevadm
+524467 -rwxr-xr-x 1 root root   14328 ส.ค.  11  2016 ulockmgr_server
+524468 -rwsr-xr-x 1 root root   26696 ม.ค.   9 01:31 umount
+524469 -rwxr-xr-x 1 root root   35032 ม.ค.  18  2018 uname
+524470 -rwxr-xr-x 1 root root    2301 เม.ย. 28  2017 uncompress
+524471 -rwxr-xr-x 1 root root    2762 ม.ค.  22  2018 unicode_start
+524474 -rwxr-xr-x 1 root root  133792 ม.ค.  18  2018 vdir
+524475 -rwxr-xr-x 1 root root   30800 ม.ค.   9 01:31 wdctl
+524476 -rwxr-xr-x 1 root root     946 ธ.ค.  31  2017 which
+524477 -rwxr-xr-x 1 root root   26632 ม.ค.  12  2018 whiptail
+524478 lrwxrwxrwx 1 root root       8 เม.ย. 22 16:23 ypdomainname -> hostname
+524479 -rwxr-xr-x 1 root root    1937 เม.ย. 28  2017 zcat
+524480 -rwxr-xr-x 1 root root    1777 เม.ย. 28  2017 zcmp
+524481 -rwxr-xr-x 1 root root    5764 เม.ย. 28  2017 zdiff
+524482 -rwxr-xr-x 1 root root     140 เม.ย. 28  2017 zegrep
+524483 -rwxr-xr-x 1 root root     140 เม.ย. 28  2017 zfgrep
+524484 -rwxr-xr-x 1 root root    2131 เม.ย. 28  2017 zforce
+[7m--More--[27m524485 -rwxr-xr-x 1 root root    5938 เม.ย. 28  2017 zgrep
+524486 -rwxr-xr-x 1 root root    2037 เม.ย. 28  2017 zless
+524487 -rwxr-xr-x 1 root root    1910 เม.ย. 28  2017 zmore
+524488 -rwxr-xr-x 1 root root    5047 เม.ย. 28  2017 znew
+]0;root@ohmaz-VirtualBox: /[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/[00m#   [Kls -al /proc | more
+total 4
+dr-xr-xr-x 227 root             root                           0 เม.ย. 23 23:33
+ .
+drwxr-xr-x  24 root             root                        4096 เม.ย. 22 16:43
+ ..
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 1
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 10
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1010
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1013
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1016
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1018
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1026
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:34
+ 1033
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:34
+ 1036
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1041
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1046
+[7m--More--[27mdr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1048
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1050
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1052
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1059
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1060
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1064
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1065
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1067
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1071
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1073
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1074
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1076
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1086
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+[7m--More--[27m 1087[K
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1096
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 11
+dr-xr-xr-x   9 colord           colord                         0 เม.ย. 23 23:34
+ 1105
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:34
+ 1138
+dr-xr-xr-x   9 root             ohmaz                          0 เม.ย. 23 23:34
+ 1151
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1154
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1155
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 116
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1168
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 117
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1172
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1174
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1177
+[7m--More--[27mdr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 118
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1181
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 119
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 12
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 120
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 121
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 122
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 123
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 124
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 126
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:36
+ 1276
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1279
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1284
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+[7m--More--[27m 1287[K
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 129
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1298
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 13
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 130
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1301
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 131
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1320
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1329
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1338
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 134
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1341
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1346
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1348
+[7m--More--[27mdr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 135
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1350
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 136
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1362
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:36
+ 1368
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 137
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1376
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1377
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 138
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1384
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1389
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 139
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1393
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+[7m--More--[27m 1397[K
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 14
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 141
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1410
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1415
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 142
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1420
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1421
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1424
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1425
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1426
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1428
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1429
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1433
+[7m--More--[27mdr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1435
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1437
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1452
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1455
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1456
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1458
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1459
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1462
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1464
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1479
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 15
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1518
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1519
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+[7m--More--[27m 1521[K
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 153
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1542
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1554
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1570
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1585
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1587
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 16
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1602
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:34
+ 1610
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:35
+ 1659
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:35
+ 1669
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:35
+ 1677
+dr-xr-xr-x   9 ohmaz            ohmaz                          0 เม.ย. 23 23:35
+ 1679
+[7m--More--[27mdr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:35
+ 1697
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 17
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:36
+ 1711
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 172
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:36
+ 1729
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 173
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:36
+ 1730
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:39
+ 1784
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:39
+ 1785
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 18
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 19
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 2
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 20
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+[7m--More--[27m 21[K
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 22
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 220
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 221
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 222
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 23
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 24
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 244
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 245
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 26
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 281
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 3
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 302
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 305
+[7m--More--[27mdr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 308
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 309
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 311
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 313
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 315
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 317
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 319
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 321
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 323
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 325
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 328
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 329
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 337
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+[7m--More--[27m 339[K
+dr-xr-xr-x   9 systemd-resolve  systemd-resolve                0 เม.ย. 23 23:33
+ 388
+dr-xr-xr-x   9 systemd-timesync systemd-timesync               0 เม.ย. 23 23:33
+ 390
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 4
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 422
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 450
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 451
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 452
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 5
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 577
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 578
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 579
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 583
+dr-xr-xr-x   9 messagebus       messagebus                     0 เม.ย. 23 23:33
+ 586
+[7m--More--[27mdr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 6
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 624
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 625
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 626
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 627
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 628
+dr-xr-xr-x   9 syslog           syslog                         0 เม.ย. 23 23:33
+ 632
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 636
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 644
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 645
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 670
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 7
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 720
+dr-xr-xr-x   9 lp               lp                             0 เม.ย. 23 23:33
+[7m--More--[27m 732[K
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 745
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 756
+dr-xr-xr-x   9 root             gdm                            0 เม.ย. 23 23:33
+ 767
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 781
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 8
+dr-xr-xr-x   9 whoopsie         whoopsie                       0 เม.ย. 23 23:33
+ 803
+dr-xr-xr-x   9 kernoops         adm                            0 เม.ย. 23 23:33
+ 808
+dr-xr-xr-x   9 kernoops         adm                            0 เม.ย. 23 23:33
+ 810
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 857
+dr-xr-xr-x   9 avahi            avahi                          0 เม.ย. 23 23:33
+ 859
+dr-xr-xr-x   9 avahi            avahi                          0 เม.ย. 23 23:36
+ 860
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 862
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 899
+[7m--More--[27mdr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 9
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 901
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 903
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 910
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 917
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:33
+ 934
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:36
+ 938
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 949
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 952
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 957
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 959
+dr-xr-xr-x   9 gdm              gdm                            0 เม.ย. 23 23:33
+ 984
+dr-xr-xr-x   9 rtkit            rtkit                          0 เม.ย. 23 23:33
+ 986
+dr-xr-xr-x   9 root             root                           0 เม.ย. 23 23:36
+[7m--More--[27m 994[K
+dr-xr-xr-x   2 root             root                           0 เม.ย. 23 23:33
+ acpi
+dr-xr-xr-x   5 root             root                           0 เม.ย. 23 23:33
+ asound
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ buddyinfo
+dr-xr-xr-x   4 root             root                           0 เม.ย. 23 23:33
+ bus
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ cgroups
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ cmdline
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ consoles
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ cpuinfo
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ crypto
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ devices
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ diskstats
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ dma
+dr-xr-xr-x   2 root             root                           0 เม.ย. 23 23:39
+ driver
+[7m--More--[27m-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ execdomains
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ fb
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ filesystems
+dr-xr-xr-x   5 root             root                           0 เม.ย. 23 23:33
+ fs
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ interrupts
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ iomem
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ ioports
+dr-xr-xr-x  23 root             root                           0 เม.ย. 23 23:33
+ irq
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ kallsyms
+-r--------   1 root             root             140737477885952 เม.ย. 23 23:33
+ kcore
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ keys
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ key-users
+-r--------   1 root             root                           0 เม.ย. 23 23:33
+ kmsg
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+[7m--More--[27m kpagecgroup
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+ kpagecount
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+ kpageflags
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ loadavg
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ locks
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ mdstat
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ meminfo
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ misc
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ modules
+lrwxrwxrwx   1 root             root                          11 เม.ย. 23 23:33
+ mounts -> self/mounts
+-rw-r--r--   1 root             root                           0 เม.ย. 23 23:33
+ mtrr
+lrwxrwxrwx   1 root             root                           8 เม.ย. 23 23:33
+ net -> self/net
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+ pagetypeinfo
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ partitions
+[7m--More--[27mdr-xr-xr-x   2 root             root                           0 เม.ย. 23 23:39
+ pressure
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ sched_debug
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ schedstat
+dr-xr-xr-x   3 root             root                           0 เม.ย. 23 23:39
+ scsi
+lrwxrwxrwx   1 root             root                           0 เม.ย. 23 23:33
+ self -> 1784
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+ slabinfo
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ softirqs
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:36
+ stat
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ swaps
+dr-xr-xr-x   1 root             root                           0 เม.ย. 23 23:33
+ sys
+--w-------   1 root             root                           0 เม.ย. 23 23:33
+ sysrq-trigger
+dr-xr-xr-x   2 root             root                           0 เม.ย. 23 23:33
+ sysvipc
+lrwxrwxrwx   1 root             root                           0 เม.ย. 23 23:33
+ thread-self -> 1784/task/1784
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+[7m--More--[27m timer_list
+dr-xr-xr-x   4 root             root                           0 เม.ย. 23 23:39
+ tty
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ uptime
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:33
+ version
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ version_signature
+-r--------   1 root             root                           0 เม.ย. 23 23:39
+ vmallocinfo
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ vmstat
+-r--r--r--   1 root             root                           0 เม.ย. 23 23:39
+ zoneinfo
+]0;root@ohmaz-VirtualBox: /[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/[00m#   [Kcd `[K`[K`[K~~[K`[K
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# mkdir lab7
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# nano test1.txt
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;34H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 2.9.3                      test1.txt                                [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[26d[3d[39;49m(B[m[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[3dH[?12l[?25h[?25le[?12l[?25h[?25le[?12l[?25h[?25l [?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25lw[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25lw[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l![?12l[?25h[?25l[26d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                  [27;1H Y(B[m Yes[K[28d(B[0;7m N(B[m No  [28;16H (B[0;7m^C(B[m Cancel[K[26;63H[?12l[?25h[?25l[27d(B[0;7m^G(B[m Get Help[27;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[27;58H(B[0;7mM-B(B[m Backup File[28d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[28;58H(B[0;7m^T(B[m To Files[26d(B[0;7mFile Name to Write: test1.txt                                (B[m[26;30H[?12l[?25h[?25l[K[1;78H[1;70H(B[0;7m        (B[m[26;32H(B[0;7m[ Wrote 1 line ](B[m[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cat test1.txt
+Hello world!
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# I[Kln test1.txt test2.txt
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# ls -il
+total 108
+134174 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [0m[01;34mDesktop[0m
+134178 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mDocuments[0m
+134175 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:55 [01;34mDownloads[0m
+135540 drwxr-xr-x 2 root  root   4096 เม.ย. 23 23:41 [01;34mlab7[0m
+134179 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mMusic[0m
+134265 -rw-r--r-- 1 root  root  61440 เม.ย. 23 23:41 output.txt
+134180 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mPictures[0m
+134810 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 23 15:19 [01;34mproject1[0m
+134177 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mPublic[0m
+134176 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mTemplates[0m
+135765 -rw-r--r-- 2 root  root     13 เม.ย. 23 23:42 test1.txt
+135765 -rw-r--r-- 2 root  root     13 เม.ย. 23 23:42 test2.txt
+134181 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mVideos[0m
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# rm test1.txt
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cat tes[K[K[Ktest2.txt
+Hello world!
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# ln -s test2.txt test3.txt
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# ls -il
+total 104
+134174 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [0m[01;34mDesktop[0m
+134178 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mDocuments[0m
+134175 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:55 [01;34mDownloads[0m
+135540 drwxr-xr-x 2 root  root   4096 เม.ย. 23 23:41 [01;34mlab7[0m
+134179 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mMusic[0m
+134265 -rw-r--r-- 1 root  root  61440 เม.ย. 23 23:41 output.txt
+134180 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mPictures[0m
+134810 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 23 15:19 [01;34mproject1[0m
+134177 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mPublic[0m
+134176 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mTemplates[0m
+135765 -rw-r--r-- 1 root  root     13 เม.ย. 23 23:42 test2.txt
+135684 lrwxrwxrwx 1 root  root      9 เม.ย. 23 23:44 [01;36mtest3.txt[0m -> test2.txt
+134181 drwxr-xr-x 2 ohmaz ohmaz  4096 เม.ย. 22 16:52 [01;34mVideos[0m
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cat test2.txt
+Hello world!
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cat test2.txt[1P.txt3.txt
+Hello world!
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# rm test2.txt
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m  [01;34mMusic[0m       [01;34mPictures[0m  [01;34mPublic[0m     [40;31;01mtest3.txt[0m
+[01;34mDocuments[0m  [01;34mlab7[0m       output.txt  [01;34mproject1[0m  [01;34mTemplates[0m  [01;34mVideos[0m
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cat teste[K3.txt
+cat: test3.txt: No such file or directory
+]0;root@ohmaz-VirtualBox: ~[01;32mroot@ohmaz-VirtualBox[00m:[01;34m~[00m# cd ..
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# mkdir sample1
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# touch sample1/test3.txt
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# ln sample1 sample2
+ln: sample1: hard link not allowed for directory
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# ln -s sample1 sample3
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# ls -l
+total 8
+drwxr-xr-x 17 ohmaz ohmaz 4096 เม.ย. 23 23:45 [0m[01;34mohmaz[0m
+drwxr-xr-x  2 root  root  4096 เม.ย. 23 23:46 [01;34msample1[0m
+lrwxrwxrwx  1 root  root     7 เม.ย. 23 23:47 [01;36msample3[0m -> [01;34msample1[0m
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             1738524       0   1738524   0% /dev
+tmpfs             352568    1564    351004   1% /run
+/dev/sda1       10253588 4994052   4718968  52% /
+tmpfs            1762824       0   1762824   0% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs            1762824       0   1762824   0% /sys/fs/cgroup
+/dev/loop0         15104   15104         0 100% /snap/gnome-characters/399
+/dev/loop4          1024    1024         0 100% /snap/gnome-logs/81
+/dev/loop2         56064   56064         0 100% /snap/core18/1668
+/dev/loop3          3840    3840         0 100% /snap/gnome-system-monitor/127
+/dev/loop1         96256   96256         0 100% /snap/core/9066
+/dev/loop5         56320   56320         0 100% /snap/core18/1705
+/dev/loop7          4480    4480         0 100% /snap/gnome-calculator/704
+/dev/loop8          3840    3840         0 100% /snap/gnome-system-monitor/135
+/dev/loop6         46080   46080         0 100% /snap/gtk-common-themes/1440
+/dev/loop11         1024    1024         0 100% /snap/gnome-logs/93
+/dev/loop9         91264   91264         0 100% /snap/core/8268
+/dev/loop10       164096  164096         0 100% /snap/gnome-3-28-1804/116
+/dev/loop13        15104   15104         0 100% /snap/gnome-characters/495
+/dev/loop12        63616   63616         0 100% /snap/gtk-common-themes/1506
+/dev/loop14         4352    4352         0 100% /snap/gnome-calculator/544
+tmpfs             352564      28    352536   1% /run/user/121
+tmpfs             352564      24    352540   1% /run/user/1000
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# df -h
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.7G     0  1.7G   0% /dev
+tmpfs           345M  1.6M  343M   1% /run
+/dev/sda1       9.8G  4.8G  4.6G  52% /
+tmpfs           1.7G     0  1.7G   0% /dev/shm
+tmpfs           5.0M  4.0K  5.0M   1% /run/lock
+tmpfs           1.7G     0  1.7G   0% /sys/fs/cgroup
+/dev/loop0       15M   15M     0 100% /snap/gnome-characters/399
+/dev/loop4      1.0M  1.0M     0 100% /snap/gnome-logs/81
+/dev/loop2       55M   55M     0 100% /snap/core18/1668
+/dev/loop3      3.8M  3.8M     0 100% /snap/gnome-system-monitor/127
+/dev/loop1       94M   94M     0 100% /snap/core/9066
+/dev/loop5       55M   55M     0 100% /snap/core18/1705
+/dev/loop7      4.4M  4.4M     0 100% /snap/gnome-calculator/704
+/dev/loop8      3.8M  3.8M     0 100% /snap/gnome-system-monitor/135
+/dev/loop6       45M   45M     0 100% /snap/gtk-common-themes/1440
+/dev/loop11     1.0M  1.0M     0 100% /snap/gnome-logs/93
+/dev/loop9       90M   90M     0 100% /snap/core/8268
+/dev/loop10     161M  161M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop13      15M   15M     0 100% /snap/gnome-characters/495
+/dev/loop12      63M   63M     0 100% /snap/gtk-common-themes/1506
+/dev/loop14     4.3M  4.3M     0 100% /snap/gnome-calculator/544
+tmpfs           345M   28K  345M   1% /run/user/121
+tmpfs           345M   24K  345M   1% /run/user/1000
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# du
+4	./ohmaz/Documents
+4	./ohmaz/Music
+4	./ohmaz/.local/share/gnome-settings-daemon
+8	./ohmaz/.local/share/gnome-shell
+4	./ohmaz/.local/share/icc
+4	./ohmaz/.local/share/evolution/tasks/trash
+8	./ohmaz/.local/share/evolution/tasks
+4	./ohmaz/.local/share/evolution/memos/trash
+8	./ohmaz/.local/share/evolution/memos
+4	./ohmaz/.local/share/evolution/addressbook/system/photos
+92	./ohmaz/.local/share/evolution/addressbook/system
+4	./ohmaz/.local/share/evolution/addressbook/trash
+100	./ohmaz/.local/share/evolution/addressbook
+8	./ohmaz/.local/share/evolution/calendar/system
+4	./ohmaz/.local/share/evolution/calendar/trash
+16	./ohmaz/.local/share/evolution/calendar
+4	./ohmaz/.local/share/evolution/mail/trash
+8	./ohmaz/.local/share/evolution/mail
+144	./ohmaz/.local/share/evolution
+12	./ohmaz/.local/share/keyrings
+60	./ohmaz/.local/share/xorg
+4	./ohmaz/.local/share/nautilus/scripts
+8	./ohmaz/.local/share/nautilus
+4	./ohmaz/.local/share/applications
+4	./ohmaz/.local/share/flatpak/db
+8	./ohmaz/.local/share/flatpak
+1132	./ohmaz/.local/share/app-info/xmls
+1136	./ohmaz/.local/share/app-info
+40	./ohmaz/.local/share/gvfs-metadata
+4	./ohmaz/.local/share/ibus-table
+4	./ohmaz/.local/share/sounds
+1448	./ohmaz/.local/share
+1452	./ohmaz/.local
+4	./ohmaz/Downloads
+4	./ohmaz/Videos
+4	./ohmaz/.gnupg/private-keys-v1.d
+8	./ohmaz/.gnupg
+44	./ohmaz/project1
+4	./ohmaz/Desktop
+4	./ohmaz/.mozilla/firefox/Crash Reports/events
+12	./ohmaz/.mozilla/firefox/Crash Reports
+8	./ohmaz/.mozilla/firefox/csr5i294.default
+4	./ohmaz/.mozilla/firefox/Pending Pings
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/crashes/events
+12	./ohmaz/.mozilla/firefox/hzowoe08.default-release/crashes
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/bookmarkbackups
+44	./ohmaz/.mozilla/firefox/hzowoe08.default-release/saved-telemetry-pings
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+4144	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb
+4152	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome
+4156	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/temporary
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/https+++drive.google.com/idb/4041069256GsoDoegvlierD.files
+880	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/https+++drive.google.com/idb
+888	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/https+++drive.google.com
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/moz-extension+++95b74f79-b679-46f7-a1ec-1b2902f7cd7b^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.files
+52	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/moz-extension+++95b74f79-b679-46f7-a1ec-1b2902f7cd7b^userContextId=4294967295/idb
+60	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/moz-extension+++95b74f79-b679-46f7-a1ec-1b2902f7cd7b^userContextId=4294967295
+952	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default
+5116	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage
+1360	./ohmaz/.mozilla/firefox/hzowoe08.default-release/gmp-gmpopenh264/1.8.1.1
+1364	./ohmaz/.mozilla/firefox/hzowoe08.default-release/gmp-gmpopenh264
+28	./ohmaz/.mozilla/firefox/hzowoe08.default-release/sessionstore-backups
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/extensions
+4	./ohmaz/.mozilla/firefox/hzowoe08.default-release/minidumps
+36	./ohmaz/.mozilla/firefox/hzowoe08.default-release/datareporting/archived/2020-04
+40	./ohmaz/.mozilla/firefox/hzowoe08.default-release/datareporting/archived
+104	./ohmaz/.mozilla/firefox/hzowoe08.default-release/datareporting
+24420	./ohmaz/.mozilla/firefox/hzowoe08.default-release
+24456	./ohmaz/.mozilla/firefox
+4	./ohmaz/.mozilla/systemextensionsdev
+4	./ohmaz/.mozilla/extensions
+24468	./ohmaz/.mozilla
+344	./ohmaz/.cache/gstreamer-1.0
+12	./ohmaz/.cache/update-manager-core
+124	./ohmaz/.cache/wallpaper
+4	./ohmaz/.cache/evolution/tasks/trash
+8	./ohmaz/.cache/evolution/tasks
+4	./ohmaz/.cache/evolution/sources/trash
+8	./ohmaz/.cache/evolution/sources
+4	./ohmaz/.cache/evolution/memos/trash
+8	./ohmaz/.cache/evolution/memos
+4	./ohmaz/.cache/evolution/addressbook/trash
+8	./ohmaz/.cache/evolution/addressbook
+4	./ohmaz/.cache/evolution/calendar/trash
+8	./ohmaz/.cache/evolution/calendar
+4	./ohmaz/.cache/evolution/mail/trash
+8	./ohmaz/.cache/evolution/mail
+52	./ohmaz/.cache/evolution
+4	./ohmaz/.cache/mozilla/firefox/csr5i294.default
+16	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/settings/main/ms-language-packs
+20	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/settings/main
+24	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/settings
+20	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/thumbnails
+10872	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/startupCache
+24860	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/cache2/entries
+4	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/cache2/doomed
+24896	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/cache2
+6000	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/safebrowsing/google4
+6688	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/safebrowsing
+260	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/OfflineCache
+42764	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release
+42772	./ohmaz/.cache/mozilla/firefox
+42776	./ohmaz/.cache/mozilla
+20	./ohmaz/.cache/ibus/bus
+24	./ohmaz/.cache/ibus
+12	./ohmaz/.cache/fontconfig
+4	./ohmaz/.cache/libgweather
+588	./ohmaz/.cache/gnome-software/icons
+1572	./ohmaz/.cache/gnome-software/cssresource
+692	./ohmaz/.cache/gnome-software/odrs
+728	./ohmaz/.cache/gnome-software/shell-extensions
+324	./ohmaz/.cache/gnome-software/fwupd/remotes.d/lvfs
+328	./ohmaz/.cache/gnome-software/fwupd/remotes.d
+332	./ohmaz/.cache/gnome-software/fwupd
+3916	./ohmaz/.cache/gnome-software
+4	./ohmaz/.cache/ibus-table
+47288	./ohmaz/.cache
+4	./ohmaz/Pictures
+4	./ohmaz/Public
+4	./ohmaz/.config/goa-1.0
+4	./ohmaz/.config/update-notifier
+4	./ohmaz/.config/gnome-session/saved-session
+8	./ohmaz/.config/gnome-session
+8	./ohmaz/.config/evolution/sources
+12	./ohmaz/.config/evolution
+8	./ohmaz/.config/nautilus
+8	./ohmaz/.config/gtk-3.0
+84	./ohmaz/.config/pulse
+8	./ohmaz/.config/ibus/bus
+12	./ohmaz/.config/ibus
+12	./ohmaz/.config/dconf
+164	./ohmaz/.config
+4	./ohmaz/lab7
+4	./ohmaz/Templates
+73552	./ohmaz
+4	./sample1
+73560	.
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# du -h
+4.0K	./ohmaz/Documents
+4.0K	./ohmaz/Music
+4.0K	./ohmaz/.local/share/gnome-settings-daemon
+8.0K	./ohmaz/.local/share/gnome-shell
+4.0K	./ohmaz/.local/share/icc
+4.0K	./ohmaz/.local/share/evolution/tasks/trash
+8.0K	./ohmaz/.local/share/evolution/tasks
+4.0K	./ohmaz/.local/share/evolution/memos/trash
+8.0K	./ohmaz/.local/share/evolution/memos
+4.0K	./ohmaz/.local/share/evolution/addressbook/system/photos
+92K	./ohmaz/.local/share/evolution/addressbook/system
+4.0K	./ohmaz/.local/share/evolution/addressbook/trash
+100K	./ohmaz/.local/share/evolution/addressbook
+8.0K	./ohmaz/.local/share/evolution/calendar/system
+4.0K	./ohmaz/.local/share/evolution/calendar/trash
+16K	./ohmaz/.local/share/evolution/calendar
+4.0K	./ohmaz/.local/share/evolution/mail/trash
+8.0K	./ohmaz/.local/share/evolution/mail
+144K	./ohmaz/.local/share/evolution
+12K	./ohmaz/.local/share/keyrings
+60K	./ohmaz/.local/share/xorg
+4.0K	./ohmaz/.local/share/nautilus/scripts
+8.0K	./ohmaz/.local/share/nautilus
+4.0K	./ohmaz/.local/share/applications
+4.0K	./ohmaz/.local/share/flatpak/db
+8.0K	./ohmaz/.local/share/flatpak
+1.2M	./ohmaz/.local/share/app-info/xmls
+1.2M	./ohmaz/.local/share/app-info
+40K	./ohmaz/.local/share/gvfs-metadata
+4.0K	./ohmaz/.local/share/ibus-table
+4.0K	./ohmaz/.local/share/sounds
+1.5M	./ohmaz/.local/share
+1.5M	./ohmaz/.local
+4.0K	./ohmaz/Downloads
+4.0K	./ohmaz/Videos
+4.0K	./ohmaz/.gnupg/private-keys-v1.d
+8.0K	./ohmaz/.gnupg
+44K	./ohmaz/project1
+4.0K	./ohmaz/Desktop
+4.0K	./ohmaz/.mozilla/firefox/Crash Reports/events
+12K	./ohmaz/.mozilla/firefox/Crash Reports
+8.0K	./ohmaz/.mozilla/firefox/csr5i294.default
+4.0K	./ohmaz/.mozilla/firefox/Pending Pings
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/crashes/events
+12K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/crashes
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/bookmarkbackups
+44K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/saved-telemetry-pings
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/1657114595AmcateirvtiSty.files
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/2823318777ntouromlalnodry--naod.files
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/3561288849sdhlie.files
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/2918063365piupsah.files
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/3870112724rsegmnoittet-es.files
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb/1451318868ntouromlalnodry--epcr.files
+4.1M	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome/idb
+4.1M	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent/chrome
+4.1M	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/permanent
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/temporary
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/https+++drive.google.com/idb/4041069256GsoDoegvlierD.files
+880K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/https+++drive.google.com/idb
+888K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/https+++drive.google.com
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/moz-extension+++95b74f79-b679-46f7-a1ec-1b2902f7cd7b^userContextId=4294967295/idb/3647222921wleabcEoxlt-eengsairo.files
+52K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/moz-extension+++95b74f79-b679-46f7-a1ec-1b2902f7cd7b^userContextId=4294967295/idb
+60K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default/moz-extension+++95b74f79-b679-46f7-a1ec-1b2902f7cd7b^userContextId=4294967295
+952K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage/default
+5.0M	./ohmaz/.mozilla/firefox/hzowoe08.default-release/storage
+1.4M	./ohmaz/.mozilla/firefox/hzowoe08.default-release/gmp-gmpopenh264/1.8.1.1
+1.4M	./ohmaz/.mozilla/firefox/hzowoe08.default-release/gmp-gmpopenh264
+28K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/sessionstore-backups
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/extensions
+4.0K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/minidumps
+36K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/datareporting/archived/2020-04
+40K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/datareporting/archived
+104K	./ohmaz/.mozilla/firefox/hzowoe08.default-release/datareporting
+24M	./ohmaz/.mozilla/firefox/hzowoe08.default-release
+24M	./ohmaz/.mozilla/firefox
+4.0K	./ohmaz/.mozilla/systemextensionsdev
+4.0K	./ohmaz/.mozilla/extensions
+24M	./ohmaz/.mozilla
+344K	./ohmaz/.cache/gstreamer-1.0
+12K	./ohmaz/.cache/update-manager-core
+124K	./ohmaz/.cache/wallpaper
+4.0K	./ohmaz/.cache/evolution/tasks/trash
+8.0K	./ohmaz/.cache/evolution/tasks
+4.0K	./ohmaz/.cache/evolution/sources/trash
+8.0K	./ohmaz/.cache/evolution/sources
+4.0K	./ohmaz/.cache/evolution/memos/trash
+8.0K	./ohmaz/.cache/evolution/memos
+4.0K	./ohmaz/.cache/evolution/addressbook/trash
+8.0K	./ohmaz/.cache/evolution/addressbook
+4.0K	./ohmaz/.cache/evolution/calendar/trash
+8.0K	./ohmaz/.cache/evolution/calendar
+4.0K	./ohmaz/.cache/evolution/mail/trash
+8.0K	./ohmaz/.cache/evolution/mail
+52K	./ohmaz/.cache/evolution
+4.0K	./ohmaz/.cache/mozilla/firefox/csr5i294.default
+16K	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/settings/main/ms-language-packs
+20K	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/settings/main
+24K	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/settings
+20K	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/thumbnails
+11M	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/startupCache
+25M	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/cache2/entries
+4.0K	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/cache2/doomed
+25M	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/cache2
+5.9M	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/safebrowsing/google4
+6.6M	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/safebrowsing
+260K	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release/OfflineCache
+42M	./ohmaz/.cache/mozilla/firefox/hzowoe08.default-release
+42M	./ohmaz/.cache/mozilla/firefox
+42M	./ohmaz/.cache/mozilla
+20K	./ohmaz/.cache/ibus/bus
+24K	./ohmaz/.cache/ibus
+12K	./ohmaz/.cache/fontconfig
+4.0K	./ohmaz/.cache/libgweather
+588K	./ohmaz/.cache/gnome-software/icons
+1.6M	./ohmaz/.cache/gnome-software/cssresource
+692K	./ohmaz/.cache/gnome-software/odrs
+728K	./ohmaz/.cache/gnome-software/shell-extensions
+324K	./ohmaz/.cache/gnome-software/fwupd/remotes.d/lvfs
+328K	./ohmaz/.cache/gnome-software/fwupd/remotes.d
+332K	./ohmaz/.cache/gnome-software/fwupd
+3.9M	./ohmaz/.cache/gnome-software
+4.0K	./ohmaz/.cache/ibus-table
+47M	./ohmaz/.cache
+4.0K	./ohmaz/Pictures
+4.0K	./ohmaz/Public
+4.0K	./ohmaz/.config/goa-1.0
+4.0K	./ohmaz/.config/update-notifier
+4.0K	./ohmaz/.config/gnome-session/saved-session
+8.0K	./ohmaz/.config/gnome-session
+8.0K	./ohmaz/.config/evolution/sources
+12K	./ohmaz/.config/evolution
+8.0K	./ohmaz/.config/nautilus
+8.0K	./ohmaz/.config/gtk-3.0
+84K	./ohmaz/.config/pulse
+8.0K	./ohmaz/.config/ibus/bus
+12K	./ohmaz/.config/ibus
+12K	./ohmaz/.config/dconf
+164K	./ohmaz/.config
+4.0K	./ohmaz/lab7
+4.0K	./ohmaz/Templates
+72M	./ohmaz
+4.0K	./sample1
+72M	.
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# du -h /etc
+8.0K	/etc/hp
+4.0K	/etc/update-manager/release-upgrades.d
+16K	/etc/update-manager
+8.0K	/etc/UPower
+4.0K	/etc/opt
+4.0K	/etc/rcS.d
+4.0K	/etc/dpkg/dpkg.cfg.d
+12K	/etc/dpkg/origins
+24K	/etc/dpkg
+4.0K	/etc/update-notifier
+24K	/etc/gnome
+12K	/etc/init
+4.0K	/etc/NetworkManager/dispatcher.d/pre-down.d
+4.0K	/etc/NetworkManager/dispatcher.d/no-wait.d
+4.0K	/etc/NetworkManager/dispatcher.d/pre-up.d
+20K	/etc/NetworkManager/dispatcher.d
+4.0K	/etc/NetworkManager/system-connections
+4.0K	/etc/NetworkManager/dnsmasq-shared.d
+8.0K	/etc/NetworkManager/conf.d
+4.0K	/etc/NetworkManager/dnsmasq.d
+48K	/etc/NetworkManager
+20K	/etc/pki/fwupd
+16K	/etc/pki/fwupd-metadata
+40K	/etc/pki
+4.0K	/etc/binfmt.d
+8.0K	/etc/firefox/pref
+16K	/etc/firefox
+16K	/etc/chatscripts
+8.0K	/etc/network/if-down.d
+8.0K	/etc/network/if-post-down.d
+12K	/etc/network/if-up.d
+12K	/etc/network/if-pre-up.d
+4.0K	/etc/network/interfaces.d
+52K	/etc/network
+8.0K	/etc/python2.7
+4.0K	/etc/security/namespace.d
+4.0K	/etc/security/limits.d
+56K	/etc/security
+8.0K	/etc/gdm3/PrimeOff
+8.0K	/etc/gdm3/PostLogin
+8.0K	/etc/gdm3/PreSession
+8.0K	/etc/gdm3/Init
+8.0K	/etc/gdm3/Prime
+8.0K	/etc/gdm3/PostSession
+72K	/etc/gdm3
+16K	/etc/cron.d
+8.0K	/etc/selinux
+8.0K	/etc/apm/scripts.d
+12K	/etc/apm/event.d
+4.0K	/etc/apm/resume.d
+4.0K	/etc/apm/suspend.d
+32K	/etc/apm
+552K	/etc/ssh
+4.0K	/etc/cups/ssl
+4.0K	/etc/cups/interfaces
+4.0K	/etc/cups/ppd
+76K	/etc/cups
+8.0K	/etc/sudoers.d
+8.0K	/etc/ghostscript/fontmap.d
+24K	/etc/ghostscript/cidfmap.d
+36K	/etc/ghostscript
+16K	/etc/cupshelpers
+16K	/etc/bluetooth
+8.0K	/etc/python3.6
+12K	/etc/cron.monthly
+4.0K	/etc/gss/mech.d
+8.0K	/etc/gss
+32K	/etc/profile.d
+36K	/etc/acpi/events
+60K	/etc/acpi
+628K	/etc/ssl/certs
+8.0K	/etc/ssl/private
+652K	/etc/ssl
+4.0K	/etc/ifplugd/action.d
+8.0K	/etc/ifplugd
+8.0K	/etc/cracklib
+4.0K	/etc/networkd-dispatcher/dormant.d
+4.0K	/etc/networkd-dispatcher/no-carrier.d
+4.0K	/etc/networkd-dispatcher/off.d
+4.0K	/etc/networkd-dispatcher/routable.d
+20K	/etc/networkd-dispatcher
+16K	/etc/apport/blacklist.d
+8.0K	/etc/apport/native-origins.d
+32K	/etc/apport
+8.0K	/etc/ufw/applications.d
+56K	/etc/ufw
+12K	/etc/groff
+8.0K	/etc/newt
+4.0K	/etc/rc0.d
+264K	/etc/ImageMagick-6
+12K	/etc/rsyslog.d
+4.0K	/etc/apparmor/init/network-interface-security
+8.0K	/etc/apparmor/init
+20K	/etc/apparmor
+4.0K	/etc/rc6.d
+4.0K	/etc/dictionaries-common
+160K	/etc/xdg/autostart
+24K	/etc/xdg/menus
+4.0K	/etc/xdg/systemd
+200K	/etc/xdg
+4.0K	/etc/tmpfiles.d
+4.0K	/etc/libpaper.d
+8.0K	/etc/gtk-2.0
+4.0K	/etc/usb_modeswitch.d
+60K	/etc/cron.daily
+8.0K	/etc/perl/XML/SAX
+12K	/etc/perl/XML
+8.0K	/etc/perl/Net
+4.0K	/etc/perl/CPAN
+28K	/etc/perl
+416K	/etc/fonts/conf.avail
+28K	/etc/fonts/conf.d
+452K	/etc/fonts
+4.0K	/etc/rc2.d
+8.0K	/etc/python3
+20K	/etc/X11/cursors
+4.0K	/etc/X11/xkb
+12K	/etc/X11/fonts/misc
+8.0K	/etc/X11/fonts/Type1
+24K	/etc/X11/fonts
+8.0K	/etc/X11/Xresources
+16K	/etc/X11/xinit
+8.0K	/etc/X11/xsm
+200K	/etc/X11/app-defaults
+76K	/etc/X11/Xsession.d
+8.0K	/etc/X11/Xreset.d
+412K	/etc/X11
+44K	/etc/wpa_supplicant
+12K	/etc/gtk-3.0
+12K	/etc/dhcp/dhclient-enter-hooks.d
+16K	/etc/dhcp/dhclient-exit-hooks.d
+40K	/etc/dhcp
+4.0K	/etc/udev/hwdb.d
+64K	/etc/udev/rules.d
+76K	/etc/udev
+24K	/etc/pulse
+44K	/etc/modprobe.d
+4.0K	/etc/glvnd/egl_vendor.d
+8.0K	/etc/glvnd
+4.0K	/etc/rc5.d
+12K	/etc/libnl-3
+8.0K	/etc/insserv.conf.d
+40K	/etc/brltty/Keyboard
+16K	/etc/brltty/Attributes
+912K	/etc/brltty/Text
+16K	/etc/brltty/Input/mm
+8.0K	/etc/brltty/Input/pg
+36K	/etc/brltty/Input/fs
+92K	/etc/brltty/Input/ht
+36K	/etc/brltty/Input/md
+8.0K	/etc/brltty/Input/np
+8.0K	/etc/brltty/Input/vr
+16K	/etc/brltty/Input/vo
+8.0K	/etc/brltty/Input/at
+20K	/etc/brltty/Input/hw
+8.0K	/etc/brltty/Input/lt
+8.0K	/etc/brltty/Input/tn
+64K	/etc/brltty/Input/eu
+12K	/etc/brltty/Input/bp
+8.0K	/etc/brltty/Input/bd
+12K	/etc/brltty/Input/ce
+76K	/etc/brltty/Input/hm
+60K	/etc/brltty/Input/ts
+68K	/etc/brltty/Input/al
+16K	/etc/brltty/Input/sk
+8.0K	/etc/brltty/Input/cb
+8.0K	/etc/brltty/Input/lb
+8.0K	/etc/brltty/Input/mn
+160K	/etc/brltty/Input/pm
+8.0K	/etc/brltty/Input/mb
+8.0K	/etc/brltty/Input/bg
+124K	/etc/brltty/Input/bm
+8.0K	/etc/brltty/Input/vd
+12K	/etc/brltty/Input/ec
+8.0K	/etc/brltty/Input/ba
+8.0K	/etc/brltty/Input/vs
+12K	/etc/brltty/Input/hd
+36K	/etc/brltty/Input/mt
+8.0K	/etc/brltty/Input/tt
+16K	/etc/brltty/Input/ir
+4.0K	/etc/brltty/Input/xw
+12K	/etc/brltty/Input/bl
+16K	/etc/brltty/Input/bn
+1.1M	/etc/brltty/Input
+1.7M	/etc/brltty/Contraction
+3.7M	/etc/brltty
+8.0K	/etc/sane.d/dll.d
+340K	/etc/sane.d
+8.0K	/etc/cron.hourly
+4.0K	/etc/ca-certificates/update.d
+8.0K	/etc/ca-certificates
+8.0K	/etc/calendar
+4.0K	/etc/polkit-1/localauthority/90-mandatory.d
+4.0K	/etc/polkit-1/localauthority/20-org.d
+4.0K	/etc/polkit-1/localauthority/50-local.d
+4.0K	/etc/polkit-1/localauthority/10-vendor.d
+4.0K	/etc/polkit-1/localauthority/30-site.d
+24K	/etc/polkit-1/localauthority
+12K	/etc/polkit-1/localauthority.conf.d
+8.0K	/etc/polkit-1/nullbackend.conf.d
+48K	/etc/polkit-1
+12K	/etc/pm/sleep.d
+16K	/etc/pm
+8.0K	/etc/iproute2/rt_protos.d
+8.0K	/etc/iproute2/rt_tables.d
+56K	/etc/iproute2
+8.0K	/etc/depmod.d
+4.0K	/etc/dbus-1/session.d
+156K	/etc/dbus-1/system.d
+164K	/etc/dbus-1
+168K	/etc/console-setup
+4.0K	/etc/avahi/services
+20K	/etc/avahi
+40K	/etc/sysctl.d
+4.0K	/etc/apt/sources.list.d
+4.0K	/etc/apt/preferences.d
+16K	/etc/apt/trusted.gpg.d
+76K	/etc/apt/apt.conf.d
+4.0K	/etc/apt/auth.conf.d
+112K	/etc/apt
+52K	/etc/update-motd.d
+8.0K	/etc/logcheck/ignore.d.paranoid
+16K	/etc/logcheck/ignore.d.server
+28K	/etc/logcheck
+4.0K	/etc/initramfs-tools/conf.d
+4.0K	/etc/initramfs-tools/hooks
+4.0K	/etc/initramfs-tools/scripts/nfs-bottom
+4.0K	/etc/initramfs-tools/scripts/local-top
+4.0K	/etc/initramfs-tools/scripts/local-bottom
+4.0K	/etc/initramfs-tools/scripts/nfs-top
+4.0K	/etc/initramfs-tools/scripts/init-top
+4.0K	/etc/initramfs-tools/scripts/panic
+4.0K	/etc/initramfs-tools/scripts/init-bottom
+4.0K	/etc/initramfs-tools/scripts/init-premount
+4.0K	/etc/initramfs-tools/scripts/nfs-premount
+4.0K	/etc/initramfs-tools/scripts/local-premount
+44K	/etc/initramfs-tools/scripts
+68K	/etc/initramfs-tools
+8.0K	/etc/udisks2
+4.0K	/etc/rc4.d
+172K	/etc/init.d
+8.0K	/etc/pcmcia
+8.0K	/etc/terminfo
+12K	/etc/ld.so.conf.d
+12K	/etc/emacs/site-start.d
+20K	/etc/emacs
+8.0K	/etc/ldap
+24K	/etc/bash_completion.d
+8.0K	/etc/speech-dispatcher/clients
+72K	/etc/speech-dispatcher/modules
+96K	/etc/speech-dispatcher
+12K	/etc/PackageKit
+44K	/etc/logrotate.d
+108K	/etc/pam.d
+4.0K	/etc/apparmor.d/disable
+48K	/etc/apparmor.d/abstractions/ubuntu-browsers.d
+24K	/etc/apparmor.d/abstractions/apparmor_api
+408K	/etc/apparmor.d/abstractions
+4.0K	/etc/apparmor.d/force-complain
+1.1M	/etc/apparmor.d/cache
+16K	/etc/apparmor.d/local
+12K	/etc/apparmor.d/tunables/home.d
+8.0K	/etc/apparmor.d/tunables/xdg-user-dirs.d
+8.0K	/etc/apparmor.d/tunables/multiarch.d
+76K	/etc/apparmor.d/tunables
+1.7M	/etc/apparmor.d
+4.0K	/etc/systemd/system/getty.target.wants
+4.0K	/etc/systemd/system/sockets.target.wants
+4.0K	/etc/systemd/system/sysinit.target.wants
+4.0K	/etc/systemd/system/graphical.target.wants
+4.0K	/etc/systemd/system/network-online.target.wants
+4.0K	/etc/systemd/system/spice-vdagentd.target.wants
+4.0K	/etc/systemd/system/bluetooth.target.wants
+12K	/etc/systemd/system/multi-user.target.wants
+4.0K	/etc/systemd/system/default.target.wants
+4.0K	/etc/systemd/system/timers.target.wants
+4.0K	/etc/systemd/system/display-manager.service.wants
+4.0K	/etc/systemd/system/final.target.wants
+4.0K	/etc/systemd/system/paths.target.wants
+4.0K	/etc/systemd/system/cloud-final.service.wants
+4.0K	/etc/systemd/system/oem-config.service.wants
+4.0K	/etc/systemd/system/printer.target.wants
+136K	/etc/systemd/system
+4.0K	/etc/systemd/network
+4.0K	/etc/systemd/user/default.target.wants
+8.0K	/etc/systemd/user
+176K	/etc/systemd
+12K	/etc/kernel/postrm.d
+20K	/etc/kernel/postinst.d
+8.0K	/etc/kernel/preinst.d
+4.0K	/etc/kernel/install.d
+48K	/etc/kernel
+8.0K	/etc/resolvconf/update-libc.d
+12K	/etc/resolvconf
+16K	/etc/thermald
+8.0K	/etc/libblockdev/conf.d
+12K	/etc/libblockdev
+8.0K	/etc/netplan
+8.0K	/etc/modules-load.d
+4.0K	/etc/rc3.d
+20K	/etc/fwupd/remotes.d
+32K	/etc/fwupd
+8.0K	/etc/alternatives
+124K	/etc/default
+12K	/etc/vim
+8.0K	/etc/geoclue
+4.0K	/etc/sensors.d
+16K	/etc/skel
+20K	/etc/cron.weekly
+84K	/etc/grub.d
+8.0K	/etc/dconf/db/ibus.d
+16K	/etc/dconf/db
+8.0K	/etc/dconf/profile
+28K	/etc/dconf
+8.0K	/etc/gdb
+4.0K	/etc/rc1.d
+12K	/etc/ppp/ip-up.d
+8.0K	/etc/ppp/peers
+4.0K	/etc/ppp/resolv
+4.0K	/etc/ppp/ipv6-down.d
+12K	/etc/ppp/ip-down.d
+4.0K	/etc/ppp/ipv6-up.d
+92K	/etc/ppp
+12M	/etc
+]0;root@ohmaz-VirtualBox: /home[01;32mroot@ohmaz-VirtualBox[00m:[01;34m/home[00m# exit [K
+exit
+
+Script done on 2020-04-23 23:48:52+0700

@@ -1,0 +1,191 @@
+Script started on 2020-04-19 20:50:02+0700
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ oete[K[K[K[Kef[K[Keefef[K[K[K[K[Kefef[K[K[K[Kefef[K[K[K[Ksdf[K[K[Ksudo fdisk /dev/sda
+[sudo] password for ohm: 
+[32m
+Welcome to fdisk (util-linux 2.31.1).
+[0mChanges will remain in memory only, until you decide to write them.
+Be careful before using the write command.
+
+
+Command (m for help): n
+Partition type
+   p   primary (1 primary, 0 extended, 3 free)
+   e   extended (container for logical partitions)
+Select (default p): e
+Partition number (2-4, default 2): 2
+First sector (20561920-20971519, default 20561920): 
+Last sector, +sectors or +size{K,M,G,T,P} (20561920-20971519, default 20971519): 
+
+Created a new partition 2 of type 'Extended' and of size 200 MiB.
+
+Command (m for help): w
+The partition table has been altered.
+Syncing disks.
+
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ sudo fdisk /dev/sda[K[K[K[K[K[K[K[K-l
+[1mDisk /dev/loop0: 89.1 MiB, 93417472 bytes, 182456 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop1: 54.7 MiB, 57294848 bytes, 111904 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop2: 44.9 MiB, 47063040 bytes, 91920 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop3: 160.2 MiB, 167931904 bytes, 327992 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop4: 4.2 MiB, 4403200 bytes, 8600 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop5: 14.8 MiB, 15462400 bytes, 30200 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop6: 956 KiB, 978944 bytes, 1912 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+[1mDisk /dev/loop7: 3.7 MiB, 3825664 bytes, 7472 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+
+
+[1mDisk /dev/sda: 10 GiB, 10737418240 bytes, 20971520 sectors
+[0mUnits: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x6cf07c68
+
+[1mDevice[0m     [1mBoot[0m [1m   Start[0m [1m     End[0m [1m Sectors[0m [1m Size[0m [1mId[0m [1mType[0m
+/dev/sda1  *        2048 20561919 20559872  9.8G 83 Linux
+/dev/sda2       20561920 20971519   409600  200M  5 Extended
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ sudo mkfs -t ext3 -N 800 /dev/sda2
+mke2fs 1.44.1 (24-Mar-2018)
+Found a dos partition table in /dev/sda2
+Proceed anyway? (y,N) y
+Creating filesystem with 204800 1k blocks and 800 inodes
+Filesystem UUID: 7aa04079-400b-4c8d-81f5-7cdf9f2181d1
+Superblock backups stored on blocks: 
+	8193, 24577, 40961, 57345, 73729
+
+Allocating group tables:  0/25     done                            
+Writing inode tables:  0/25     done                            
+Creating journal (4096 blocks): done
+Writing superblocks and filesystem accounting information:  0/25     done
+
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ sudo dumpe2fs -h /dev/sda2
+dumpe2fs 1.44.1 (24-Mar-2018)
+Filesystem volume name:   <none>
+Last mounted on:          <not available>
+Filesystem UUID:          7aa04079-400b-4c8d-81f5-7cdf9f2181d1
+Filesystem magic number:  0xEF53
+Filesystem revision #:    1 (dynamic)
+Filesystem features:      has_journal ext_attr resize_inode dir_index filetype sparse_super large_file
+Filesystem flags:         signed_directory_hash 
+Default mount options:    user_xattr acl
+Filesystem state:         clean
+Errors behavior:          Continue
+Filesystem OS type:       Linux
+Inode count:              800
+Block count:              204800
+Reserved block count:     10240
+Free blocks:              198974
+Free inodes:              789
+First block:              1
+Block size:               1024
+Fragment size:            1024
+Reserved GDT blocks:      256
+Blocks per group:         8192
+Fragments per group:      8192
+Inodes per group:         32
+Inode blocks per group:   4
+Filesystem created:       Sun Apr 19 20:52:06 2020
+Last mount time:          n/a
+Last write time:          Sun Apr 19 20:52:06 2020
+Mount count:              0
+Maximum mount count:      -1
+Last checked:             Sun Apr 19 20:52:06 2020
+Check interval:           0 (<none>)
+Reserved blocks uid:      0 (user root)
+Reserved blocks gid:      0 (group root)
+First inode:              11
+Inode size:	          128
+Journal inode:            8
+Default directory hash:   half_md4
+Directory Hash Seed:      425b7e06-40b3-40bc-bab0-9e8368e8a220
+Journal backup:           inode blocks
+Journal features:         (none)
+Journal size:             4096k
+Journal length:           4096
+Journal sequence:         0x00000001
+Journal start:            0
+
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ sudo e2label /dev/sda2 /home
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ sudo tune2fs -c 24 /deb[Kv/sda2
+tune2fs 1.44.1 (24-Mar-2018)
+Setting maximal mount count to 24
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ sudo mount /dec[Kv/sda2 /mnt
+]0;ohm@ohm-VirtualBox: ~[01;32mohm@ohm-VirtualBox[00m:[01;34m~[00m$ cd /mnt
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ ls
+[0m[01;34mlost+found[0m
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ ls -id /mnt
+2 [0m[01;34m/mnt[0m
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ ls -id /mnt/lost+found
+11 [0m[01;34m/mnt/lost+found[0m
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ sudo rsync -av /home/ohm/* /mnt
+sending incremental file list
+examples.desktop
+output.txt
+Desktop/
+Documents/
+Downloads/
+Music/
+Pictures/
+Public/
+Templates/
+Videos/
+
+sent 13,498 bytes  received 90 bytes  27,176.00 bytes/sec
+total size is 13,076  speedup is 0.96
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ ls
+[0m[01;34mDesktop[0m    [01;34mDownloads[0m         [01;34mlost+found[0m  output.txt  [01;34mPublic[0m     [01;34mVideos[0m
+[01;34mDocuments[0m  examples.desktop  [01;34mMusic[0m       [01;34mPictures[0m    [01;34mTemplates[0m
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ ls -i
+673 [0m[01;34mDesktop[0m     12 examples.desktop   13 output.txt  577 [01;34mTemplates[0m
+385 [01;34mDocuments[0m   11 [01;34mlost+found[0m        193 [01;34mPictures[0m    257 [01;34mVideos[0m
+129 [01;34mDownloads[0m   65 [01;34mMusic[0m             737 [01;34mPublic[0m
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ cd /
+]0;ohm@ohm-VirtualBox: /[01;32mohm@ohm-VirtualBox[00m:[01;34m/[00m$ sudo umount /dev/sda2
+]0;ohm@ohm-VirtualBox: /[01;32mohm@ohm-VirtualBox[00m:[01;34m/[00m$ cd /mnt
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ ls
+]0;ohm@ohm-VirtualBox: /mnt[01;32mohm@ohm-VirtualBox[00m:[01;34m/mnt[00m$ exit
+exit
+
+Script done on 2020-04-19 20:55:03+0700

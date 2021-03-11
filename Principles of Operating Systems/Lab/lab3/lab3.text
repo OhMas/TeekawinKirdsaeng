@@ -1,0 +1,1597 @@
+Script started on 2020-02-25 16:33:28+0700
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# cri[Kontab -e
+no crontab for root - using an empty one
+
+Select an editor.  To change later, run 'select-editor'.
+  1. /bin/nano        <---- easiest
+  2. /usr/bin/vim.tiny
+  3. /bin/ed
+
+Choose 1-3 [1]: 1
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;32H(B[0;7m[ Reading File ](B[m[26;38H(B[0;7m 22 lines ](B[m[H(B[0;7m  GNU nano 2.9.3             /tmp/crontab.rHBjmV/crontab                       [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[26d[3d[39;49m[36m# Edit this file to introduce tasks to be run by cron.[4d# [5d# Each task to run has to be defined through a single line[6d# indicating with different fields when the task will be run[7d# and what command to run for the task[8d# [9d# To define the time you can provide concrete values for[10d# minute (m), hour (h), day of month (dom), month (mon),[11d# and day of week (dow) or use '*' in these fields (for 'any').# [12d# Notice that tasks will be started based on the cron's system[13d# daemon's notion of time and timezones.[14d# [15d# Output of the crontab jobs (including errors) is sent through[16d# email to the user the crontab file belongs to (unless redirected).[17d# [18d# For example, you can run a backup of all your user accounts[19d# at 5 a.m every week with:[20d# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/[21d# [22d# For more information see the manual pages of crontab(5) and cron(8)[23d# [24d# m h  dom mon dow   command[3d[39m(B[m[?12l[?25h[?25l[?12l[?25h[?25l[4d[?12l[?25h[?25l[5d[?12l[?25h[?25l[6d[?12l[?25h[?25l[7d[?12l[?25h[?25l[8d[?12l[?25h[?25l[9d[?12l[?25h[?25l[10d[?12l[?25h[?25l[11d[?12l[?25h[?25l[12d[?12l[?25h[?25l[13d[?12l[?25h[?25l[14d[?12l[?25h[?25l[15d[?12l[?25h[?25l[16d[?12l[?25h[?25l[17d[?12l[?25h[?25l[18d[?12l[?25h[?25l[19d[?12l[?25h[?25l[20d[?12l[?25h[?25l[21d[?12l[?25h[?25l[22d[?12l[?25h[?25l[23d[?12l[?25h[?25l[24d[?12l[?25h[?25l[25d[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[26d[K[A[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[1;70H(B[0;7mModified(B[m[25d2[?12l[?25h[?25l0[?12l[?25h[?25l [?12l[?25h[?25l1[?12l[?25h[?25l6[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l5[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25l [?12l[?25h[?25l2[?12l[?25h[?25lb[?12l[?25h[?25l [?12l[?25h[?25l [?12l[?25h[?25le[?12l[?25h[?25lv[?12l[?25h[?25l [?12l[?25h[?25lc[?12l[?25h[?25lh[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25l"[?12l[?25h[?25lH[?12l[?25h[?25le[?12l[?25h[?25ll[?12l[?25h[?25ll[?12l[?25h[?25lo[?12l[?25h[?25l [?12l[?25h[?25lW[?12l[?25h[?25lo[?12l[?25h[?25lr[?12l[?25h[?25ll[?12l[?25h[?25ld[?12l[?25h[?25l![?12l[?25h[?25l"[?12l[?25h[?25l7[2;26r8[26d[12S[1;28r[2;1H[K[14d[?12l[?25h[?25l[?12l[?25h[?25l[26d(B[0;7mSave modified buffer?  (Answering "No" will DISCARD changes.)                  [27;1H Y(B[m Yes[K[28d(B[0;7m N(B[m No  [28;16H (B[0;7m^C(B[m Cancel[K[26;63H[?12l[?25h[?25l[27d(B[0;7m^G(B[m Get Help[27;20H(B[0;7mM-D(B[m DOS Format     (B[0;7mM-A(B[m Append[27;58H(B[0;7mM-B(B[m Backup File[28d(B[0;7m^C(B[m Cancel[17G   (B[0;7mM-M(B[m Mac Format     (B[0;7mM-P(B[m Prepend[28;58H(B[0;7m^T(B[m To Files[26d(B[0;7mFile Name to Write: /tmp/crontab.rHBjmV/crontab              (B[m[26;48H[?12l[?25h[?25l[K[1;78H[1;70H(B[0;7m        (B[m[26;31H(B[0;7m[ Wrote 24 lines ](B[m[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>crontab: installing new crontab
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# crontab -1
+crontab: invalid option -- '1'
+crontab: usage error: unrecognized option
+usage:	crontab [-u user] file
+	crontab [ -u user ] [ -i ] { -e | -l | -r }
+		(default operation is replace, per 1003.2)
+	-e	(edit user's crontab)
+	-l	(list user's crontab)
+	-r	(delete user's crontab)
+	-i	(prompt before deleting user's crontab)
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# crontab -1[Kl
+# Edit this file to introduce tasks to be run by cron.
+# 
+# Each task to run has to be defined through a single line
+# indicating with different fields when the task will be run
+# and what command to run for the task
+# 
+# To define the time you can provide concrete values for
+# minute (m), hour (h), day of month (dom), month (mon),
+# and day of week (dow) or use '*' in these fields (for 'any').# 
+# Notice that tasks will be started based on the cron's system
+# daemon's notion of time and timezones.
+# 
+# Output of the crontab jobs (including errors) is sent through
+# email to the user the crontab file belongs to (unless redirected).
+# 
+# For example, you can run a backup of all your user accounts
+# at 5 a.m every week with:
+# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/
+# 
+# For more information see the manual pages of crontab(5) and cron(8)
+# 
+# m h  dom mon dow   command
+20 16 25 2 2 echo "Hello World!"
+
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# ps
+  PID TTY          TIME CMD
+ 2520 pts/1    00:00:00 bash
+ 2589 pts/1    00:00:00 ps
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# ps -e
+  PID TTY          TIME CMD
+    1 ?        00:00:01 systemd
+    2 ?        00:00:00 kthreadd
+    3 ?        00:00:00 rcu_gp
+    4 ?        00:00:00 rcu_par_gp
+    6 ?        00:00:00 kworker/0:0H-kb
+    7 ?        00:00:00 kworker/u2:0-ev
+    8 ?        00:00:00 mm_percpu_wq
+    9 ?        00:00:00 ksoftirqd/0
+   10 ?        00:00:00 rcu_sched
+   11 ?        00:00:00 migration/0
+   12 ?        00:00:00 idle_inject/0
+   13 ?        00:00:00 kworker/0:1-eve
+   14 ?        00:00:00 cpuhp/0
+   15 ?        00:00:00 kdevtmpfs
+   16 ?        00:00:00 netns
+   17 ?        00:00:00 rcu_tasks_kthre
+   18 ?        00:00:00 kauditd
+   19 ?        00:00:00 khungtaskd
+   20 ?        00:00:00 oom_reaper
+   21 ?        00:00:00 writeback
+   22 ?        00:00:00 kcompactd0
+   23 ?        00:00:00 ksmd
+   24 ?        00:00:00 khugepaged
+   25 ?        00:00:00 crypto
+   26 ?        00:00:00 kintegrityd
+   27 ?        00:00:00 kblockd
+   28 ?        00:00:00 tpm_dev_wq
+   29 ?        00:00:00 ata_sff
+   30 ?        00:00:00 md
+   31 ?        00:00:00 edac-poller
+   32 ?        00:00:00 devfreq_wq
+   33 ?        00:00:00 watchdogd
+   34 ?        00:00:00 kworker/u2:1-ev
+   37 ?        00:00:00 kswapd0
+   38 ?        00:00:00 kworker/u3:0
+   39 ?        00:00:00 ecryptfs-kthrea
+  128 ?        00:00:00 kthrotld
+  129 ?        00:00:00 acpi_thermal_pm
+  130 ?        00:00:00 scsi_eh_0
+  131 ?        00:00:00 scsi_tmf_0
+  132 ?        00:00:00 scsi_eh_1
+  133 ?        00:00:00 scsi_tmf_1
+  136 ?        00:00:00 ipv6_addrconf
+  147 ?        00:00:00 kstrp
+  166 ?        00:00:00 charger_manager
+  167 ?        00:00:00 kworker/0:1H-kb
+  206 ?        00:00:00 kworker/0:2-eve
+  218 ?        00:00:00 scsi_eh_2
+  219 ?        00:00:00 scsi_tmf_2
+  241 ?        00:00:00 jbd2/sda1-8
+  242 ?        00:00:00 ext4-rsv-conver
+  281 ?        00:00:00 systemd-journal
+  295 ?        00:00:00 systemd-udevd
+  301 ?        00:00:00 loop0
+  302 ?        00:00:00 loop1
+  303 ?        00:00:00 loop2
+  304 ?        00:00:00 loop3
+  306 ?        00:00:00 loop4
+  308 ?        00:00:00 loop5
+  310 ?        00:00:00 loop6
+  312 ?        00:00:00 loop7
+  320 ?        00:00:00 loop9
+  321 ?        00:00:00 loop10
+  322 ?        00:00:00 loop11
+  328 ?        00:00:00 loop12
+  330 ?        00:00:00 loop13
+  334 ?        00:00:00 loop14
+  339 ?        00:00:00 loop15
+  418 ?        00:00:00 iprt-VBoxWQueue
+  447 ?        00:00:00 irq/18-vmwgfx
+  448 ?        00:00:00 ttm_swap
+  576 ?        00:00:00 systemd-resolve
+  578 ?        00:00:00 systemd-timesyn
+  597 ?        00:00:00 dbus-daemon
+  624 ?        00:00:00 acpid
+  625 ?        00:00:00 rsyslogd
+  630 ?        00:00:00 cron
+  631 ?        00:00:00 avahi-daemon
+  632 ?        00:00:00 networkd-dispat
+  634 ?        00:00:00 accounts-daemon
+  641 ?        00:00:00 ModemManager
+  642 ?        00:00:00 systemd-logind
+  644 ?        00:00:00 wpa_supplicant
+  645 ?        00:00:00 NetworkManager
+  649 ?        00:00:00 udisksd
+  717 ?        00:00:00 avahi-daemon
+  721 ?        00:00:00 polkitd
+  739 ?        00:00:00 unattended-upgr
+  762 ?        00:00:00 gdm3
+  770 ?        00:00:00 dhclient
+  799 ?        00:00:00 whoopsie
+  802 ?        00:00:00 kerneloops
+  804 ?        00:00:00 kerneloops
+  838 ?        00:00:00 gdm-session-wor
+  927 ?        00:00:00 systemd
+  928 ?        00:00:00 (sd-pam)
+  940 tty1     00:00:00 gdm-wayland-ses
+  942 ?        00:00:00 dbus-daemon
+  944 tty1     00:00:00 gnome-session-b
+  950 tty1     00:00:03 gnome-shell
+ 1205 ?        00:00:00 upowerd
+ 1216 tty1     00:00:00 Xwayland
+ 1229 ?        00:00:06 packagekitd
+ 1233 ?        00:00:00 at-spi-bus-laun
+ 1238 ?        00:00:00 dbus-daemon
+ 1242 ?        00:00:00 at-spi2-registr
+ 1248 ?        00:00:00 pulseaudio
+ 1250 ?        00:00:00 rtkit-daemon
+ 1302 tty1     00:00:00 ibus-daemon
+ 1305 tty1     00:00:00 ibus-dconf
+ 1308 tty1     00:00:00 ibus-x11
+ 1310 ?        00:00:00 ibus-portal
+ 1319 ?        00:00:00 xdg-permission-
+ 1327 ?        00:00:00 boltd
+ 1334 tty1     00:00:00 gsd-xsettings
+ 1337 tty1     00:00:00 gsd-a11y-settin
+ 1338 tty1     00:00:00 gsd-clipboard
+ 1341 tty1     00:00:00 gsd-color
+ 1342 tty1     00:00:00 gsd-datetime
+ 1343 tty1     00:00:00 gsd-housekeepin
+ 1346 tty1     00:00:00 gsd-keyboard
+ 1349 tty1     00:00:00 gsd-media-keys
+ 1350 tty1     00:00:00 gsd-mouse
+ 1351 tty1     00:00:00 gsd-power
+ 1352 tty1     00:00:00 gsd-print-notif
+ 1354 tty1     00:00:00 gsd-rfkill
+ 1358 tty1     00:00:00 gsd-screensaver
+ 1361 tty1     00:00:00 gsd-sharing
+ 1364 tty1     00:00:00 gsd-smartcard
+ 1366 tty1     00:00:00 gsd-sound
+ 1367 tty1     00:00:00 gsd-wacom
+ 1393 ?        00:00:00 colord
+ 1441 tty1     00:00:00 ibus-engine-sim
+ 1515 ?        00:00:00 loop16
+ 1618 ?        00:00:00 snapd
+ 1742 ?        00:00:00 gdm-session-wor
+ 1746 ?        00:00:00 systemd
+ 1747 ?        00:00:00 (sd-pam)
+ 1760 ?        00:00:00 gnome-keyring-d
+ 1764 tty2     00:00:00 gdm-x-session
+ 1766 tty2     00:00:01 Xorg
+ 1771 ?        00:00:00 dbus-daemon
+ 1775 tty2     00:00:00 gnome-session-b
+ 1870 ?        00:00:00 ssh-agent
+ 1873 ?        00:00:00 gvfsd
+ 1878 ?        00:00:00 gvfsd-fuse
+ 1881 ?        00:00:00 at-spi-bus-laun
+ 1892 ?        00:00:00 dbus-daemon
+ 1895 ?        00:00:00 at-spi2-registr
+ 1911 tty2     00:00:10 gnome-shell
+ 1921 ?        00:00:00 pulseaudio
+ 1930 tty2     00:00:00 ibus-daemon
+ 1934 tty2     00:00:00 ibus-dconf
+ 1936 tty2     00:00:00 ibus-x11
+ 1939 ?        00:00:00 ibus-portal
+ 1946 ?        00:00:00 xdg-permission-
+ 1953 ?        00:00:00 gnome-shell-cal
+ 1961 ?        00:00:00 gvfs-udisks2-vo
+ 1968 ?        00:00:00 gvfs-goa-volume
+ 1969 ?        00:00:00 evolution-sourc
+ 1973 ?        00:00:00 goa-daemon
+ 1987 ?        00:00:00 goa-identity-se
+ 1992 ?        00:00:00 gvfs-gphoto2-vo
+ 1996 ?        00:00:00 gvfs-mtp-volume
+ 2000 ?        00:00:00 gvfs-afc-volume
+ 2005 tty2     00:00:00 gsd-power
+ 2007 tty2     00:00:00 gsd-print-notif
+ 2008 tty2     00:00:00 gsd-rfkill
+ 2009 tty2     00:00:00 gsd-screensaver
+ 2012 tty2     00:00:00 gsd-sharing
+ 2015 tty2     00:00:00 gsd-smartcard
+ 2017 tty2     00:00:00 gsd-sound
+ 2021 tty2     00:00:00 gsd-xsettings
+ 2026 tty2     00:00:00 gsd-wacom
+ 2038 tty2     00:00:00 gsd-clipboard
+ 2040 tty2     00:00:00 gsd-a11y-settin
+ 2043 tty2     00:00:00 gsd-datetime
+ 2044 tty2     00:00:00 gsd-color
+ 2046 tty2     00:00:00 gsd-keyboard
+ 2048 tty2     00:00:00 gsd-housekeepin
+ 2049 tty2     00:00:00 gsd-mouse
+ 2050 tty2     00:00:00 gsd-media-keys
+ 2064 tty2     00:00:00 gsd-printer
+ 2109 tty2     00:00:00 gsd-disk-utilit
+ 2114 tty2     00:00:00 nautilus-deskto
+ 2121 ?        00:00:00 evolution-calen
+ 2127 ?        00:00:00 gvfsd-trash
+ 2135 tty2     00:00:00 ibus-engine-sim
+ 2162 ?        00:00:00 dconf-service
+ 2169 ?        00:00:00 evolution-calen
+ 2182 ?        00:00:00 evolution-addre
+ 2191 ?        00:00:00 evolution-addre
+ 2222 ?        00:00:00 gnome-terminal-
+ 2231 pts/0    00:00:00 bash
+ 2243 tty2     00:00:02 gnome-software
+ 2245 tty2     00:00:00 update-notifier
+ 2267 ?        00:00:00 fwupd
+ 2289 tty2     00:00:06 update-manager
+ 2422 ?        00:00:00 cupsd
+ 2424 ?        00:00:00 cups-browsed
+ 2448 tty2     00:00:00 deja-dup-monito
+ 2518 pts/0    00:00:00 sudo
+ 2519 pts/0    00:00:00 script
+ 2520 pts/1    00:00:00 bash
+ 2590 pts/1    00:00:00 ps
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# ps nux
+    USER   PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+       0     1  0.1  0.3 160060  9264 ?        Ss   16:26   0:01 /sbin/init spl
+       0     2  0.0  0.0      0     0 ?        S    16:26   0:00 [kthreadd]
+       0     3  0.0  0.0      0     0 ?        I<   16:26   0:00 [rcu_gp]
+       0     4  0.0  0.0      0     0 ?        I<   16:26   0:00 [rcu_par_gp]
+       0     6  0.0  0.0      0     0 ?        I<   16:26   0:00 [kworker/0:0H-
+       0     7  0.0  0.0      0     0 ?        R    16:26   0:00 [kworker/u2:0-
+       0     8  0.0  0.0      0     0 ?        I<   16:26   0:00 [mm_percpu_wq]
+       0     9  0.0  0.0      0     0 ?        S    16:26   0:00 [ksoftirqd/0]
+       0    10  0.0  0.0      0     0 ?        I    16:26   0:00 [rcu_sched]
+       0    11  0.0  0.0      0     0 ?        S    16:26   0:00 [migration/0]
+       0    12  0.0  0.0      0     0 ?        S    16:26   0:00 [idle_inject/0
+       0    13  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/0:1-e
+       0    14  0.0  0.0      0     0 ?        S    16:26   0:00 [cpuhp/0]
+       0    15  0.0  0.0      0     0 ?        S    16:26   0:00 [kdevtmpfs]
+       0    16  0.0  0.0      0     0 ?        I<   16:26   0:00 [netns]
+       0    17  0.0  0.0      0     0 ?        S    16:26   0:00 [rcu_tasks_kth
+       0    18  0.0  0.0      0     0 ?        S    16:26   0:00 [kauditd]
+       0    19  0.0  0.0      0     0 ?        S    16:26   0:00 [khungtaskd]
+       0    20  0.0  0.0      0     0 ?        S    16:26   0:00 [oom_reaper]
+       0    21  0.0  0.0      0     0 ?        I<   16:26   0:00 [writeback]
+       0    22  0.0  0.0      0     0 ?        S    16:26   0:00 [kcompactd0]
+       0    23  0.0  0.0      0     0 ?        SN   16:26   0:00 [ksmd]
+       0    24  0.0  0.0      0     0 ?        SN   16:26   0:00 [khugepaged]
+       0    25  0.0  0.0      0     0 ?        I<   16:26   0:00 [crypto]
+       0    26  0.0  0.0      0     0 ?        I<   16:26   0:00 [kintegrityd]
+       0    27  0.0  0.0      0     0 ?        I<   16:26   0:00 [kblockd]
+       0    28  0.0  0.0      0     0 ?        I<   16:26   0:00 [tpm_dev_wq]
+       0    29  0.0  0.0      0     0 ?        I<   16:26   0:00 [ata_sff]
+       0    30  0.0  0.0      0     0 ?        I<   16:26   0:00 [md]
+       0    31  0.0  0.0      0     0 ?        I<   16:26   0:00 [edac-poller]
+       0    32  0.0  0.0      0     0 ?        I<   16:26   0:00 [devfreq_wq]
+       0    33  0.0  0.0      0     0 ?        S    16:26   0:00 [watchdogd]
+       0    34  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/u2:1-
+       0    37  0.0  0.0      0     0 ?        S    16:26   0:00 [kswapd0]
+       0    38  0.0  0.0      0     0 ?        I<   16:26   0:00 [kworker/u3:0]
+       0    39  0.0  0.0      0     0 ?        S    16:26   0:00 [ecryptfs-kthr
+       0   128  0.0  0.0      0     0 ?        I<   16:26   0:00 [kthrotld]
+       0   129  0.0  0.0      0     0 ?        I<   16:26   0:00 [acpi_thermal_
+       0   130  0.0  0.0      0     0 ?        S    16:26   0:00 [scsi_eh_0]
+       0   131  0.0  0.0      0     0 ?        I<   16:26   0:00 [scsi_tmf_0]
+       0   132  0.0  0.0      0     0 ?        S    16:26   0:00 [scsi_eh_1]
+       0   133  0.0  0.0      0     0 ?        I<   16:26   0:00 [scsi_tmf_1]
+       0   136  0.0  0.0      0     0 ?        I<   16:26   0:00 [ipv6_addrconf
+       0   147  0.0  0.0      0     0 ?        I<   16:26   0:00 [kstrp]
+       0   166  0.0  0.0      0     0 ?        I<   16:26   0:00 [charger_manag
+       0   167  0.0  0.0      0     0 ?        I<   16:26   0:00 [kworker/0:1H-
+       0   206  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/0:2-e
+       0   218  0.0  0.0      0     0 ?        S    16:26   0:00 [scsi_eh_2]
+       0   219  0.0  0.0      0     0 ?        I<   16:26   0:00 [scsi_tmf_2]
+       0   241  0.0  0.0      0     0 ?        S    16:26   0:00 [jbd2/sda1-8]
+       0   242  0.0  0.0      0     0 ?        I<   16:26   0:00 [ext4-rsv-conv
+       0   281  0.0  0.4  95156 14848 ?        S<s  16:26   0:00 /lib/systemd/s
+       0   295  0.0  0.1  47188  5468 ?        Ss   16:26   0:00 /lib/systemd/s
+       0   301  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop0]
+       0   302  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop1]
+       0   303  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop2]
+       0   304  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop3]
+       0   306  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop4]
+       0   308  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop5]
+       0   310  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop6]
+       0   312  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop7]
+       0   320  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop9]
+       0   321  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop10]
+       0   322  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop11]
+       0   328  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop12]
+       0   330  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop13]
+       0   334  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop14]
+       0   339  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop15]
+       0   418  0.0  0.0      0     0 ?        I<   16:26   0:00 [iprt-VBoxWQue
+       0   447  0.0  0.0      0     0 ?        S    16:26   0:00 [irq/18-vmwgfx
+       0   448  0.0  0.0      0     0 ?        I<   16:26   0:00 [ttm_swap]
+       0   624  0.0  0.0   4548   848 ?        Ss   16:26   0:00 /usr/sbin/acpi
+       0   630  0.0  0.1  38472  3280 ?        Ss   16:26   0:00 /usr/sbin/cron
+       0   632  0.0  0.5 177740 17424 ?        Ssl  16:26   0:00 /usr/bin/pytho
+       0   634  0.0  0.2 308612  8692 ?        Ssl  16:26   0:00 /usr/lib/accou
+       0   641  0.0  0.3 434316  9380 ?        Ssl  16:26   0:00 /usr/sbin/Mode
+       0   642  0.0  0.2  70700  6144 ?        Ss   16:26   0:00 /lib/systemd/s
+       0   644  0.0  0.1  45220  5248 ?        Ss   16:26   0:00 /sbin/wpa_supp
+       0   645  0.0  0.6 580360 18532 ?        Ssl  16:26   0:00 /usr/sbin/Netw
+       0   649  0.0  0.4 517976 12364 ?        Ssl  16:26   0:00 /usr/lib/udisk
+       0   721  0.0  0.3 321676 11768 ?        Ssl  16:27   0:00 /usr/lib/polic
+       0   739  0.0  0.6 194444 20564 ?        Ssl  16:27   0:00 /usr/bin/pytho
+       0   762  0.0  0.2 308232  8100 ?        Ssl  16:27   0:00 /usr/sbin/gdm3
+       0   770  0.0  0.2  25988  6272 ?        S    16:27   0:00 /sbin/dhclient
+       0   838  0.0  0.2 261604  8512 ?        Sl   16:27   0:00 gdm-session-wo
+       0  1205  0.0  0.2 322340  8500 ?        Ssl  16:27   0:00 /usr/lib/upowe
+       0  1229  0.9  1.2 531180 38904 ?        Ssl  16:27   0:06 /usr/lib/packa
+       0  1327  0.0  0.2 315256  9160 ?        Ssl  16:27   0:00 /usr/lib/x86_6
+       0  1515  0.0  0.0      0     0 ?        S<   16:27   0:00 [loop16]
+       0  1618  0.1  0.9 669424 27888 ?        Ssl  16:27   0:00 /usr/lib/snapd
+       0  1742  0.0  0.2 267792  8504 ?        Sl   16:29   0:00 gdm-session-wo
+       0  2267  0.0  0.8 565728 26608 ?        Ssl  16:31   0:00 /usr/lib/fwupd
+       0  2422  0.0  0.2 107728  7908 ?        Ss   16:32   0:00 /usr/sbin/cups
+       0  2424  0.0  0.3 303652 11044 ?        Ssl  16:32   0:00 /usr/sbin/cups
+       0  2518  0.0  0.1  73004  4400 pts/0    S+   16:33   0:00 sudo script la
+       0  2519  0.0  0.0  29396  2660 pts/0    S+   16:33   0:00 script lab6-61
+       0  2520  0.0  0.1  29596  4800 pts/1    Ss   16:33   0:00 bash -i
+       0  2591  0.0  0.1  46816  3588 pts/1    R+   16:38   0:00 ps nux
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# head -5
+ytj   
+
+
+
+^[^[^[      uyk
+uyk
+
+
+
+
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# head -5[K[K[K[K[K[K[Kcronb[Ktab -e
+[?1049h[22;0;0t[1;28r(B[m[4l[?7h[39;49m[?1h=[?1h=[?1h=[?25l[39;49m(B[m[H[2J[26;32H(B[0;7m[ Reading File ](B[m[26;38H(B[0;7m 24 lines ](B[m[H(B[0;7m  GNU nano 2.9.3             /tmp/crontab.oJGqF1/crontab                       [1;78H(B[m[27d(B[0;7m^G(B[m Get Help    (B[0;7m^O(B[m Write Out   (B[0;7m^W(B[m Where Is    (B[0;7m^K(B[m Cut Text    (B[0;7m^J(B[m Justify[28d(B[0;7m^X(B[m Exit[28;16H(B[0;7m^R(B[m Read File   (B[0;7m^\(B[m Replace     (B[0;7m^U(B[m Uncut Text  (B[0;7m^T(B[m To Spell[26d[3d[39;49m[36m# Edit this file to introduce tasks to be run by cron.[4d# [5d# Each task to run has to be defined through a single line[6d# indicating with different fields when the task will be run[7d# and what command to run for the task[8d# [9d# To define the time you can provide concrete values for[10d# minute (m), hour (h), day of month (dom), month (mon),[11d# and day of week (dow) or use '*' in these fields (for 'any').# [12d# Notice that tasks will be started based on the cron's system[13d# daemon's notion of time and timezones.[14d# [15d# Output of the crontab jobs (including errors) is sent through[16d# email to the user the crontab file belongs to (unless redirected).[17d# [18d# For example, you can run a backup of all your user accounts[19d# at 5 a.m every week with:[20d# 0 5 * * 1 tar -zcf /var/backups/home.tgz /home/[21d# [22d# For more information see the manual pages of crontab(5) and cron(8)[23d# [24d# m h  dom mon dow   command[25d[39m(B[m20 16 25 2 2 echo "Hello World!"[3d[?12l[?25h[?25l[26d[J[28;79H[?12l[?25h[28;1H[?1049l[23;0;0t[?1l>No modification made
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# ps aux | g[Khead -5
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.3 160060  9264 ?        Ss   16:26   0:01 /sbin/init splash
+root         2  0.0  0.0      0     0 ?        S    16:26   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   16:26   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   16:26   0:00 [rcu_par_gp]
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# top
+[?1h=[?25l[H[2J(B[mtop - 16:41:40 up 14 min,  1 user,  load average: 0.00, 0.13, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 172 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  5.3 (B[m[39;49mus,(B[m[39;49m[1m  1.3 (B[m[39;49msy,(B[m[39;49m[1m  3.0 (B[m[39;49mni,(B[m[39;49m[1m 83.9 (B[m[39;49mid,(B[m[39;49m[1m  6.5 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.1 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718476 (B[m[39;49mfree,(B[m[39;49m[1m  1128668 (B[m[39;49mused,(B[m[39;49m[1m  1223912 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1745128 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327448 101512 S  6.2 10.7   0:11.78 gnome-shell (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.23 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback   (B[m[39;49m[K[H(B[mtop - 16:41:44 up 14 min,  1 user,  load average: 0.00, 0.13, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.3 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718468 (B[m[39;49mfree,(B[m[39;49m[1m  1128620 (B[m[39;49mused,(B[m[39;49m[1m  1223968 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1745136 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m 1911 itcs343   20   0 2966932 327448 101512 R  1.7 10.7   0:11.83 gnome-shell (B[m[39;49m[K
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  0.7  2.1   0:01.72 Xorg        (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.3  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  0.3  1.2   0:00.79 gnome-term+ (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  0.3  0.1   0:00.01 top         (B[m[39;49m[K
+(B[m[1m    1 root      20   0  160060   9264   6636 R  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K[H(B[mtop - 16:41:47 up 14 min,  1 user,  load average: 0.00, 0.13, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 172 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  1.0 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 99.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718468 (B[m[39;49mfree,(B[m[39;49m[1m  1128616 (B[m[39;49mused,(B[m[39;49m[1m  1223972 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1745140 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327448 101512 S  0.7 10.7   0:11.85 gnome-shell (B[m[39;49m[K
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  0.3  2.1   0:01.73 Xorg        (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  0.3  1.2   0:00.80 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K[H(B[mtop - 16:41:50 up 15 min,  1 user,  load average: 0.00, 0.13, 0.24(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.3 (B[m[39;49mus,(B[m[39;49m[1m  0.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128856 (B[m[39;49mused,(B[m[39;49m[1m  1223984 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744900 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  1.7 10.7   0:11.90 gnome-shell (B[m[39;49m[K
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  0.3  2.1   0:01.74 Xorg        (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  0.3  1.2   0:00.81 gnome-term+ (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  0.3  0.1   0:00.02 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K[H(B[mtop - 16:41:53 up 15 min,  1 user,  load average: 0.00, 0.13, 0.24(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  1.4 (B[m[39;49mus,(B[m[39;49m[1m  0.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 98.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128852 (B[m[39;49mused,(B[m[39;49m[1m  1223988 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744904 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  1.3  2.1   0:01.78 Xorg        (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  1.0 10.7   0:11.93 gnome-shell (B[m[39;49m[K
+(B[m 2021 itcs343   20   0  504860  23420  18100 S  0.3  0.8   0:00.09 gsd-xsetti+ (B[m[39;49m[K
+(B[m 2046 itcs343   20   0  516664  23008  18152 S  0.3  0.7   0:00.07 gsd-keyboa+ (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  0.3  1.2   0:00.82 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K[?25l[H(B[mtop - 16:41:54 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   4 (B[m[39;49mrunning,(B[m[39;49m[1m 169 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.1 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128844 (B[m[39;49mused,(B[m[39;49m[1m  1223996 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  2.1  0.1   0:00.04 top         (B[m[39;49m[K
+(B[m[1m 1911 itcs343   20   0 2966932 327460 101512 R  1.0 10.7   0:11.94 gnome-shell (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  1.0  1.2   0:00.83 gnome-term+ (B[m[39;49m[K
+(B[m 2593 root      20   0       0      0      0 I  1.0  0.0   0:00.01 kworker/u2+ (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K[?25l[H
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  3.2 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 96.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128840 (B[m[39;49mused,(B[m[39;49m[1m  1224000 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  1.6 10.7   0:11.95 gnome-shell (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback   (B[m[39;49m[K[?25l[H
+
+%Cpu(s):(B[m[39;49m[1m  3.3 (B[m[39;49mus,(B[m[39;49m[1m  3.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.3 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128836 (B[m[39;49mused,(B[m[39;49m[1m  1224004 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  3.3 10.7   0:11.96 gnome-shell (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  3.3  0.1   0:00.05 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K[?25l[H(B[mtop - 16:41:55 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+
+%Cpu(s):(B[m[39;49m[1m  9.5 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 90.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128832 (B[m[39;49mused,(B[m[39;49m[1m  1224008 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m[1m 1766 itcs343   20   0  355732  65228  38668 R  4.5  2.1   0:01.79 Xorg        (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  4.5 10.7   0:11.97 gnome-shell (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[H
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   4 (B[m[39;49mrunning,(B[m[39;49m[1m 169 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  3.1 (B[m[39;49mus,(B[m[39;49m[1m  3.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 93.8 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  3.2  0.1   0:00.06 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback   (B[m[39;49m[K[?25l[H
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  4.8 (B[m[39;49mus,(B[m[39;49m[1m  4.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 90.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128828 (B[m[39;49mused,(B[m[39;49m[1m  1224012 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  4.5 10.7   0:11.98 gnome-shell (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[H
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   4 (B[m[39;49mrunning,(B[m[39;49m[1m 169 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  5.3 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 94.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m[1m 1911 itcs343   20   0 2966932 327460 101512 R  5.3 10.7   0:11.99 gnome-shell (B[m[39;49m[K
+(B[m[1m 1930 itcs343   20   0  377496   9660   8112 R  5.3  0.3   0:00.27 ibus-daemon (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  5.3  1.2   0:00.84 gnome-term+ (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  5.3  0.1   0:00.07 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K[?25l[H(B[mtop - 16:41:56 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  5.6 (B[m[39;49mus,(B[m[39;49m[1m  2.8 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 91.7 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m[1m 1766 itcs343   20   0  355732  65228  38668 R  2.9  2.1   0:01.80 Xorg        (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  2.9 10.7   0:12.00 gnome-shell (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K[?25l[H
+
+%Cpu(s):(B[m[39;49m[1m  9.5 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 90.5 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128824 (B[m[39;49mused,(B[m[39;49m[1m  1224016 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  4.5 10.7   0:12.01 gnome-shell (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  4.5  0.1   0:00.08 top         (B[m[39;49m[K
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+[?25l[H
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   4 (B[m[39;49mrunning,(B[m[39;49m[1m 169 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  0.0 (B[m[39;49mus,(B[m[39;49m[1m  5.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 95.0 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+
+
+[K
+
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  4.8  0.1   0:00.09 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback   (B[m[39;49m[K[?25l[H(B[mtop - 16:41:58 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.1 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128820 (B[m[39;49mused,(B[m[39;49m[1m  1224020 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744936 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m[1m 1766 itcs343   20   0  355732  65228  38668 R  0.7  2.1   0:01.81 Xorg        (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  0.7 10.7   0:12.02 gnome-shell (B[m[39;49m[K
+(B[m 2038 itcs343   20   0  355936  21852  17088 S  0.7  0.7   0:00.07 gsd-clipbo+ (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  0.7  1.2   0:00.85 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K[?25l[H(B[mtop - 16:41:58 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.6 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128820 (B[m[39;49mused,(B[m[39;49m[1m  1224020 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744936 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327460 101512 S  2.6 10.7   0:12.03 gnome-shell (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  2.6  0.1   0:00.10 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K[?25l[H(B[mtop - 16:41:58 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   4 (B[m[39;49mrunning,(B[m[39;49m[1m 169 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  7.4 (B[m[39;49mus,(B[m[39;49m[1m  3.7 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 88.9 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   718216 (B[m[39;49mfree,(B[m[39;49m[1m  1128820 (B[m[39;49mused,(B[m[39;49m[1m  1224020 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744936 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m[1m 1911 itcs343   20   0 2966932 327460 101512 R  3.8 10.7   0:12.04 gnome-shell (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.30 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K
+(B[m   20 root      20   0       0      0      0 S  0.0  0.0   0:00.00 oom_reaper  (B[m[39;49m[K
+(B[m   21 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 writeback   (B[m[39;49m[K[H(B[mtop - 16:42:01 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   3 (B[m[39;49mrunning,(B[m[39;49m[1m 170 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 35.1 (B[m[39;49mus,(B[m[39;49m[1m  2.1 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 62.2 (B[m[39;49mid,(B[m[39;49m[1m  0.7 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   717632 (B[m[39;49mfree,(B[m[39;49m[1m  1129248 (B[m[39;49mused,(B[m[39;49m[1m  1224176 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744444 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m[1m 1911 itcs343   20   0 2966932 327460 101512 R 25.6 10.7   0:12.81 gnome-shell (B[m[39;49m[K
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  9.6  2.1   0:02.10 Xorg        (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  3.0  1.2   0:00.94 gnome-term+ (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.3  0.0   0:00.31 rcu_sched   (B[m[39;49m[K
+(B[m 2044 itcs343   20   0  669112  23236  18140 S  0.3  0.8   0:00.12 gsd-color   (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  0.3  0.1   0:00.11 top         (B[m[39;49m[K
+(B[m[1m    1 root      20   0  160060   9264   6636 R  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K[H(B[mtop - 16:42:04 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 172 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m 32.6 (B[m[39;49mus,(B[m[39;49m[1m  5.3 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 62.1 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.0 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   717632 (B[m[39;49mfree,(B[m[39;49m[1m  1129244 (B[m[39;49mused,(B[m[39;49m[1m  1224180 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744448 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+
+(B[m 1911 itcs343   20   0 2966932 327480 101512 S 25.5 10.7   0:13.58 gnome-shell (B[m[39;49m[K
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  8.6  2.1   0:02.36 Xorg        (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  3.0  1.2   0:01.03 gnome-term+ (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.31 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K
+(B[m   17 root      20   0       0      0      0 S  0.0  0.0   0:00.00 rcu_tasks_+ (B[m[39;49m[K
+(B[m   18 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kauditd     (B[m[39;49m[K
+(B[m   19 root      20   0       0      0      0 S  0.0  0.0   0:00.00 khungtaskd  (B[m[39;49m[K[6;1H[7m Command disabled, 'A' mode required [?25l(B[m[39;49m[K[?25l[H(B[mtop - 16:42:06 up 15 min,  1 user,  load average: 0.00, 0.12, 0.24(B[m[39;49m(B[m[39;49m[K
+Tasks:(B[m[39;49m[1m 206 (B[m[39;49mtotal,(B[m[39;49m[1m   1 (B[m[39;49mrunning,(B[m[39;49m[1m 172 (B[m[39;49msleeping,(B[m[39;49m[1m   0 (B[m[39;49mstopped,(B[m[39;49m[1m   0 (B[m[39;49mzombie(B[m[39;49m(B[m[39;49m[K
+%Cpu(s):(B[m[39;49m[1m  2.0 (B[m[39;49mus,(B[m[39;49m[1m  0.0 (B[m[39;49msy,(B[m[39;49m[1m  0.0 (B[m[39;49mni,(B[m[39;49m[1m 97.4 (B[m[39;49mid,(B[m[39;49m[1m  0.0 (B[m[39;49mwa,(B[m[39;49m[1m  0.0 (B[m[39;49mhi,(B[m[39;49m[1m  0.7 (B[m[39;49msi,(B[m[39;49m[1m  0.0 (B[m[39;49mst(B[m[39;49m(B[m[39;49m[K
+KiB Mem :(B[m[39;49m[1m  3071056 (B[m[39;49mtotal,(B[m[39;49m[1m   717632 (B[m[39;49mfree,(B[m[39;49m[1m  1129236 (B[m[39;49mused,(B[m[39;49m[1m  1224188 (B[m[39;49mbuff/cache(B[m[39;49m(B[m[39;49m[K
+KiB Swap:(B[m[39;49m[1m   483800 (B[m[39;49mtotal,(B[m[39;49m[1m   483800 (B[m[39;49mfree,(B[m[39;49m[1m        0 (B[m[39;49mused.(B[m[39;49m[1m  1744448 (B[m[39;49mavail Mem (B[m[39;49m(B[m[39;49m[K
+[K
+[7m  PID USER      PR  NI    VIRT    RES    SHR S %CPU %MEM     TIME+ COMMAND     (B[m[39;49m[K
+(B[m 1766 itcs343   20   0  355732  65228  38668 S  1.3  2.1   0:02.38 Xorg        (B[m[39;49m[K
+(B[m 1911 itcs343   20   0 2966932 327480 101512 S  1.3 10.7   0:13.60 gnome-shell (B[m[39;49m[K
+(B[m 1930 itcs343   20   0  377496   9660   8112 S  0.6  0.3   0:00.28 ibus-daemon (B[m[39;49m[K
+(B[m 2135 itcs343   20   0  220976   8488   7616 S  0.6  0.3   0:00.10 ibus-engin+ (B[m[39;49m[K
+(B[m 2222 itcs343   20   0  801708  37792  28376 S  0.6  1.2   0:01.04 gnome-term+ (B[m[39;49m[K
+(B[m[1m 2607 root      20   0   51236   4024   3388 R  0.6  0.1   0:00.12 top         (B[m[39;49m[K
+(B[m    1 root      20   0  160060   9264   6636 S  0.0  0.3   0:01.05 systemd     (B[m[39;49m[K
+(B[m    2 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kthreadd    (B[m[39;49m[K
+(B[m    3 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_gp      (B[m[39;49m[K
+(B[m    4 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 rcu_par_gp  (B[m[39;49m[K
+(B[m    6 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 kworker/0:+ (B[m[39;49m[K
+(B[m    7 root      20   0       0      0      0 I  0.0  0.0   0:00.04 kworker/u2+ (B[m[39;49m[K
+(B[m    8 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 mm_percpu_+ (B[m[39;49m[K
+(B[m    9 root      20   0       0      0      0 S  0.0  0.0   0:00.08 ksoftirqd/0 (B[m[39;49m[K
+(B[m   10 root      20   0       0      0      0 I  0.0  0.0   0:00.31 rcu_sched   (B[m[39;49m[K
+(B[m   11 root      rt   0       0      0      0 S  0.0  0.0   0:00.00 migration/0 (B[m[39;49m[K
+(B[m   12 root     -51   0       0      0      0 S  0.0  0.0   0:00.00 idle_injec+ (B[m[39;49m[K
+(B[m   13 root      20   0       0      0      0 I  0.0  0.0   0:00.24 kworker/0:+ (B[m[39;49m[K
+(B[m   14 root      20   0       0      0      0 S  0.0  0.0   0:00.00 cpuhp/0     (B[m[39;49m[K
+(B[m   15 root      20   0       0      0      0 S  0.0  0.0   0:00.00 kdevtmpfs   (B[m[39;49m[K
+(B[m   16 root       0 -20       0      0      0 I  0.0  0.0   0:00.00 netns       (B[m[39;49m[K[?1l>[29;1H
+[?12l[?25h[K]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# qq[K[Kps n[Kaux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.1  0.3 160060  9264 ?        Ss   16:26   0:01 /sbin/init spl
+root         2  0.0  0.0      0     0 ?        S    16:26   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        I<   16:26   0:00 [rcu_gp]
+root         4  0.0  0.0      0     0 ?        I<   16:26   0:00 [rcu_par_gp]
+root         6  0.0  0.0      0     0 ?        I<   16:26   0:00 [kworker/0:0H-
+root         7  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/u2:0-
+root         8  0.0  0.0      0     0 ?        I<   16:26   0:00 [mm_percpu_wq]
+root         9  0.0  0.0      0     0 ?        S    16:26   0:00 [ksoftirqd/0]
+root        10  0.0  0.0      0     0 ?        I    16:26   0:00 [rcu_sched]
+root        11  0.0  0.0      0     0 ?        S    16:26   0:00 [migration/0]
+root        12  0.0  0.0      0     0 ?        S    16:26   0:00 [idle_inject/0
+root        13  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/0:1-e
+root        14  0.0  0.0      0     0 ?        S    16:26   0:00 [cpuhp/0]
+root        15  0.0  0.0      0     0 ?        S    16:26   0:00 [kdevtmpfs]
+root        16  0.0  0.0      0     0 ?        I<   16:26   0:00 [netns]
+root        17  0.0  0.0      0     0 ?        S    16:26   0:00 [rcu_tasks_kth
+root        18  0.0  0.0      0     0 ?        S    16:26   0:00 [kauditd]
+root        19  0.0  0.0      0     0 ?        S    16:26   0:00 [khungtaskd]
+root        20  0.0  0.0      0     0 ?        S    16:26   0:00 [oom_reaper]
+root        21  0.0  0.0      0     0 ?        I<   16:26   0:00 [writeback]
+root        22  0.0  0.0      0     0 ?        S    16:26   0:00 [kcompactd0]
+root        23  0.0  0.0      0     0 ?        SN   16:26   0:00 [ksmd]
+root        24  0.0  0.0      0     0 ?        SN   16:26   0:00 [khugepaged]
+root        25  0.0  0.0      0     0 ?        I<   16:26   0:00 [crypto]
+root        26  0.0  0.0      0     0 ?        I<   16:26   0:00 [kintegrityd]
+root        27  0.0  0.0      0     0 ?        I<   16:26   0:00 [kblockd]
+root        28  0.0  0.0      0     0 ?        I<   16:26   0:00 [tpm_dev_wq]
+root        29  0.0  0.0      0     0 ?        I<   16:26   0:00 [ata_sff]
+root        30  0.0  0.0      0     0 ?        I<   16:26   0:00 [md]
+root        31  0.0  0.0      0     0 ?        I<   16:26   0:00 [edac-poller]
+root        32  0.0  0.0      0     0 ?        I<   16:26   0:00 [devfreq_wq]
+root        33  0.0  0.0      0     0 ?        S    16:26   0:00 [watchdogd]
+root        34  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/u2:1-
+root        37  0.0  0.0      0     0 ?        S    16:26   0:00 [kswapd0]
+root        38  0.0  0.0      0     0 ?        I<   16:26   0:00 [kworker/u3:0]
+root        39  0.0  0.0      0     0 ?        S    16:26   0:00 [ecryptfs-kthr
+root       128  0.0  0.0      0     0 ?        I<   16:26   0:00 [kthrotld]
+root       129  0.0  0.0      0     0 ?        I<   16:26   0:00 [acpi_thermal_
+root       130  0.0  0.0      0     0 ?        S    16:26   0:00 [scsi_eh_0]
+root       131  0.0  0.0      0     0 ?        I<   16:26   0:00 [scsi_tmf_0]
+root       132  0.0  0.0      0     0 ?        S    16:26   0:00 [scsi_eh_1]
+root       133  0.0  0.0      0     0 ?        I<   16:26   0:00 [scsi_tmf_1]
+root       136  0.0  0.0      0     0 ?        I<   16:26   0:00 [ipv6_addrconf
+root       147  0.0  0.0      0     0 ?        I<   16:26   0:00 [kstrp]
+root       166  0.0  0.0      0     0 ?        I<   16:26   0:00 [charger_manag
+root       167  0.0  0.0      0     0 ?        I<   16:26   0:00 [kworker/0:1H-
+root       206  0.0  0.0      0     0 ?        I    16:26   0:00 [kworker/0:2-e
+root       218  0.0  0.0      0     0 ?        S    16:26   0:00 [scsi_eh_2]
+root       219  0.0  0.0      0     0 ?        I<   16:26   0:00 [scsi_tmf_2]
+root       241  0.0  0.0      0     0 ?        S    16:26   0:00 [jbd2/sda1-8]
+root       242  0.0  0.0      0     0 ?        I<   16:26   0:00 [ext4-rsv-conv
+root       281  0.0  0.4  95156 14860 ?        S<s  16:26   0:00 /lib/systemd/s
+root       295  0.0  0.1  47188  5468 ?        Ss   16:26   0:00 /lib/systemd/s
+root       301  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop0]
+root       302  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop1]
+root       303  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop2]
+root       304  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop3]
+root       306  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop4]
+root       308  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop5]
+root       310  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop6]
+root       312  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop7]
+root       320  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop9]
+root       321  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop10]
+root       322  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop11]
+root       328  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop12]
+root       330  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop13]
+root       334  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop14]
+root       339  0.0  0.0      0     0 ?        S<   16:26   0:00 [loop15]
+root       418  0.0  0.0      0     0 ?        I<   16:26   0:00 [iprt-VBoxWQue
+root       447  0.0  0.0      0     0 ?        S    16:26   0:00 [irq/18-vmwgfx
+root       448  0.0  0.0      0     0 ?        I<   16:26   0:00 [ttm_swap]
+systemd+   576  0.0  0.1  70620  5264 ?        Ss   16:26   0:00 /lib/systemd/s
+systemd+   578  0.0  0.1 146104  3424 ?        Ssl  16:26   0:00 /lib/systemd/s
+message+   597  0.0  0.1  51596  6048 ?        Ss   16:26   0:00 /usr/bin/dbus-
+root       624  0.0  0.0   4548   848 ?        Ss   16:26   0:00 /usr/sbin/acpi
+syslog     625  0.0  0.1 263032  4364 ?        Ssl  16:26   0:00 /usr/sbin/rsys
+root       630  0.0  0.1  38472  3280 ?        Ss   16:26   0:00 /usr/sbin/cron
+avahi      631  0.0  0.1  47252  3268 ?        Ss   16:26   0:00 avahi-daemon: 
+root       632  0.0  0.5 177740 17424 ?        Ssl  16:26   0:00 /usr/bin/pytho
+root       634  0.0  0.2 308612  8692 ?        Ssl  16:26   0:00 /usr/lib/accou
+root       641  0.0  0.3 434316  9380 ?        Ssl  16:26   0:00 /usr/sbin/Mode
+root       642  0.0  0.2  70700  6144 ?        Ss   16:26   0:00 /lib/systemd/s
+root       644  0.0  0.1  45220  5248 ?        Ss   16:26   0:00 /sbin/wpa_supp
+root       645  0.0  0.6 580360 18532 ?        Ssl  16:26   0:00 /usr/sbin/Netw
+root       649  0.0  0.4 517976 12364 ?        Ssl  16:26   0:00 /usr/lib/udisk
+avahi      717  0.0  0.0  47072   340 ?        S    16:27   0:00 avahi-daemon: 
+root       721  0.0  0.3 321676 11768 ?        Ssl  16:27   0:00 /usr/lib/polic
+root       739  0.0  0.6 194444 20564 ?        Ssl  16:27   0:00 /usr/bin/pytho
+root       762  0.0  0.2 308232  8100 ?        Ssl  16:27   0:00 /usr/sbin/gdm3
+root       770  0.0  0.2  25988  6272 ?        S    16:27   0:00 /sbin/dhclient
+whoopsie   799  0.0  0.4 466592 12912 ?        Ssl  16:27   0:00 /usr/bin/whoop
+kernoops   802  0.0  0.0  56936   420 ?        Ss   16:27   0:00 /usr/sbin/kern
+kernoops   804  0.0  0.0  56936   420 ?        Ss   16:27   0:00 /usr/sbin/kern
+root       838  0.0  0.2 261604  8512 ?        Sl   16:27   0:00 gdm-session-wo
+gdm        927  0.0  0.2  77000  8088 ?        Ss   16:27   0:00 /lib/systemd/s
+gdm        928  0.0  0.0 113980  2628 ?        S    16:27   0:00 (sd-pam)
+gdm        940  0.0  0.1 197844  5400 tty1     Ssl+ 16:27   0:00 /usr/lib/gdm3/
+gdm        942  0.0  0.1  50232  4460 ?        Ss   16:27   0:00 /usr/bin/dbus-
+gdm        944  0.0  0.4 567060 15280 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm        950  0.3  6.6 2934832 204484 tty1   Sl+  16:27   0:03 /usr/bin/gnome
+root      1205  0.0  0.2 322340  8500 ?        Ssl  16:27   0:00 /usr/lib/upowe
+gdm       1216  0.0  1.2 206868 36996 tty1     S+   16:27   0:00 /usr/bin/Xwayl
+root      1229  0.6  1.2 531180 38904 ?        Ssl  16:27   0:06 /usr/lib/packa
+gdm       1233  0.0  0.2 365592  8184 ?        Ssl  16:27   0:00 /usr/lib/at-sp
+gdm       1238  0.0  0.1  49920  4252 ?        S    16:27   0:00 /usr/bin/dbus-
+gdm       1242  0.0  0.2 220760  6948 ?        Sl   16:27   0:00 /usr/lib/at-sp
+gdm       1248  0.0  0.3 1153480 11536 ?       Ssl  16:27   0:00 /usr/bin/pulse
+rtkit     1250  0.0  0.0 183500  3036 ?        SNsl 16:27   0:00 /usr/lib/rtkit
+gdm       1302  0.0  0.3 449016  9500 tty1     Sl   16:27   0:00 ibus-daemon --
+gdm       1305  0.0  0.2 294536  8092 tty1     Sl   16:27   0:00 /usr/lib/ibus/
+gdm       1308  0.0  1.5 478032 48260 tty1     Sl   16:27   0:00 /usr/lib/ibus/
+gdm       1310  0.0  0.2 292480  8028 ?        Sl   16:27   0:00 /usr/lib/ibus/
+gdm       1319  0.0  0.1 271608  5064 ?        Ssl  16:27   0:00 /usr/libexec/x
+root      1327  0.0  0.2 315256  9160 ?        Ssl  16:27   0:00 /usr/lib/x86_6
+gdm       1334  0.0  0.7 502668 23296 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1337  0.0  0.2 294532  8312 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1338  0.0  0.7 353844 21808 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1341  0.0  0.7 666916 23620 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1342  0.0  0.4 393756 13528 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1343  0.0  0.1 283788  5524 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1346  0.0  0.7 514664 23360 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1349  0.0  0.8 874848 24832 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1350  0.0  0.1 202044  4528 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1351  0.0  0.7 525452 23908 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1352  0.0  0.2 267056  8572 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1354  0.0  0.1 202064  4480 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1358  0.0  0.1 275780  4740 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1361  0.0  0.3 321480 10440 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1364  0.0  0.3 464336  9984 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1366  0.0  0.3 340980  9796 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+gdm       1367  0.0  0.7 438848 22864 tty1     Sl+  16:27   0:00 /usr/lib/gnome
+colord    1393  0.0  0.5 339612 15636 ?        Ssl  16:27   0:00 /usr/lib/color
+gdm       1441  0.0  0.2 218812  8056 tty1     Sl   16:27   0:00 /usr/lib/ibus/
+root      1515  0.0  0.0      0     0 ?        S<   16:27   0:00 [loop16]
+root      1618  0.1  0.8 669424 25784 ?        Ssl  16:27   0:00 /usr/lib/snapd
+root      1742  0.0  0.2 267792  8504 ?        Sl   16:29   0:00 gdm-session-wo
+itcs343   1746  0.0  0.2  77016  8384 ?        Ss   16:30   0:00 /lib/systemd/s
+itcs343   1747  0.0  0.0 196136  2800 ?        S    16:30   0:00 (sd-pam)
+itcs343   1760  0.0  0.2 288400  7644 ?        Sl   16:30   0:00 /usr/bin/gnome
+itcs343   1764  0.0  0.1 212176  6012 tty2     Ssl+ 16:30   0:00 /usr/lib/gdm3/
+itcs343   1766  0.3  2.1 355732 65372 tty2     Sl+  16:30   0:02 /usr/lib/xorg/
+itcs343   1771  0.0  0.1  51040  5512 ?        Ss   16:30   0:00 /usr/bin/dbus-
+itcs343   1775  0.0  0.5 643224 15916 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   1870  0.0  0.0  11300   320 ?        Ss   16:30   0:00 /usr/bin/ssh-a
+itcs343   1873  0.0  0.2 292004  7112 ?        Ssl  16:30   0:00 /usr/lib/gvfs/
+itcs343   1878  0.0  0.2 432020  8088 ?        Sl   16:30   0:00 /usr/lib/gvfs/
+itcs343   1881  0.0  0.2 367912  8772 ?        Ssl  16:30   0:00 /usr/lib/at-sp
+itcs343   1892  0.0  0.1  49924  4336 ?        S    16:30   0:00 /usr/bin/dbus-
+itcs343   1895  0.0  0.2 220776  6832 ?        Sl   16:30   0:00 /usr/lib/at-sp
+itcs343   1911  1.8 10.6 2966932 327440 tty2   Sl+  16:30   0:13 /usr/bin/gnome
+itcs343   1921  0.0  0.4 1172296 12328 ?       S<l  16:30   0:00 /usr/bin/pulse
+itcs343   1930  0.0  0.3 377496  9660 tty2     Sl   16:30   0:00 ibus-daemon --
+itcs343   1934  0.0  0.2 296836  8472 tty2     Sl   16:30   0:00 /usr/lib/ibus/
+itcs343   1936  0.0  0.7 356332 22620 tty2     Sl   16:30   0:00 /usr/lib/ibus/
+itcs343   1939  0.0  0.2 294776  8684 ?        Sl   16:30   0:00 /usr/lib/ibus/
+itcs343   1946  0.0  0.1 271608  5004 ?        Ssl  16:30   0:00 /usr/libexec/x
+itcs343   1953  0.0  0.7 696428 21532 ?        Sl   16:30   0:00 /usr/lib/gnome
+itcs343   1961  0.0  0.3 320224 11208 ?        Ssl  16:30   0:00 /usr/lib/gvfs/
+itcs343   1968  0.0  0.1 274092  6008 ?        Ssl  16:30   0:00 /usr/lib/gvfs/
+itcs343   1969  0.0  0.8 768244 26208 ?        Ssl  16:30   0:00 /usr/lib/evolu
+itcs343   1973  0.0  1.0 778396 32148 ?        Sl   16:30   0:00 /usr/lib/gnome
+itcs343   1987  0.0  0.3 319576  9976 ?        Sl   16:30   0:00 /usr/lib/gnome
+itcs343   1992  0.0  0.1 288708  5644 ?        Ssl  16:30   0:00 /usr/lib/gvfs/
+itcs343   1996  0.0  0.1 275920  4832 ?        Ssl  16:30   0:00 /usr/lib/gvfs/
+itcs343   2000  0.0  0.2 378860  7656 ?        Ssl  16:30   0:00 /usr/lib/gvfs/
+itcs343   2005  0.0  0.7 601092 24004 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2007  0.0  0.3 349368 10300 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2008  0.0  0.1 423392  5940 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2009  0.0  0.1 275780  4744 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2012  0.0  0.3 471240 11212 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2015  0.0  0.3 392768 10092 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2017  0.0  0.3 343148  9948 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2021  0.0  0.7 504860 23420 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2026  0.0  0.7 440792 22772 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2038  0.0  0.7 355936 21852 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2040  0.0  0.2 296696  8536 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2043  0.0  0.4 476628 15192 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2044  0.0  0.7 669112 23236 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2046  0.0  0.7 516664 23008 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2048  0.0  0.2 374736  8868 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2049  0.0  0.2 296696  8380 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2050  0.0  0.7 803096 23608 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2064  0.0  0.4 508812 12352 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2109  0.0  0.1 271932  6084 tty2     Sl+  16:30   0:00 /usr/lib/gnome
+itcs343   2114  0.0  1.5 989840 47792 tty2     Sl+  16:30   0:00 nautilus-deskt
+itcs343   2121  0.0  2.1 894380 67464 ?        Ssl  16:30   0:00 /usr/lib/evolu
+itcs343   2127  0.0  0.3 384080 10084 ?        Sl   16:30   0:00 /usr/lib/gvfs/
+itcs343   2135  0.0  0.2 220976  8488 tty2     Sl   16:30   0:00 /usr/lib/ibus/
+itcs343   2162  0.0  0.1 188020  5232 ?        Sl   16:30   0:00 /usr/lib/dconf
+itcs343   2169  0.0  2.0 946084 62884 ?        Sl   16:30   0:00 /usr/lib/evolu
+itcs343   2182  0.0  0.8 735020 24740 ?        Ssl  16:30   0:00 /usr/lib/evolu
+itcs343   2191  0.0  0.8 892952 27088 ?        Sl   16:30   0:00 /usr/lib/evolu
+itcs343   2222  0.1  1.2 803780 37900 ?        Ssl  16:30   0:01 /usr/lib/gnome
+itcs343   2231  0.0  0.1  29604  4908 pts/0    Ss   16:30   0:00 bash
+itcs343   2243  0.4  5.7 1083208 175412 tty2   SLl+ 16:31   0:02 /usr/bin/gnome
+itcs343   2245  0.0  0.8 678000 26664 tty2     Sl+  16:31   0:00 update-notifie
+root      2267  0.0  0.8 565728 26608 ?        Ssl  16:31   0:00 /usr/lib/fwupd
+itcs343   2289  0.9  5.2 992488 161656 tty2    SNl+ 16:31   0:06 /usr/bin/pytho
+root      2422  0.0  0.2 107728  7908 ?        Ss   16:32   0:00 /usr/sbin/cups
+root      2424  0.0  0.3 303652 11044 ?        Ssl  16:32   0:00 /usr/sbin/cups
+itcs343   2448  0.0  1.0 863440 33008 tty2     Sl+  16:32   0:00 /usr/lib/deja-
+root      2518  0.0  0.1  73004  4400 pts/0    S+   16:33   0:00 sudo script la
+root      2519  0.0  0.0  29396  2660 pts/0    S+   16:33   0:00 script lab6-61
+root      2520  0.0  0.1  29596  4804 pts/1    Ss   16:33   0:00 bash -i
+root      2593  0.0  0.0      0     0 ?        I    16:38   0:00 [kworker/u2:2-
+root      2615  0.0  0.1  46816  3636 pts/1    R+   16:42   0:00 ps aux
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# ps -r [K[Ke }[K\[K| grep firefox
+ 2617 tty2     00:00:05 [01;31m[Kfirefox[m[K
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# kill 2617-of-firefox
+bash: kill: 2617-of-firefox: arguments must be process or job IDs
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# sudo adduser testuser
+Adding user `testuser' ...
+Adding new group `testuser' (1001) ...
+Adding new user `testuser' (1001) with group `testuser' ...
+Creating home directory `/home/testuser' ...
+Copying files from `/etc/skel' ...
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+Changing the user information for testuser
+Enter the new value, or press ENTER for the default
+	Full Name []: ^Cadduser: `/usr/bin/chfn testuser' exited from signal 2. Exiting.
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# sudo passwd testuser
+Enter new UNIX password: 
+Retype new UNIX password: 
+passwd: password updated successfully
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# sudo groupadd testgroup
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# sudo s[Kusermod -a -G testgroup testuser
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# cat / [Ketc/passwd
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+uuidd:x:105:111::/run/uuidd:/usr/sbin/nologin
+avahi-autoipd:x:106:112:Avahi autoip daemon,,,:/var/lib/avahi-autoipd:/usr/sbin/nologin
+usbmux:x:107:46:usbmux daemon,,,:/var/lib/usbmux:/usr/sbin/nologin
+dnsmasq:x:108:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+rtkit:x:109:114:RealtimeKit,,,:/proc:/usr/sbin/nologin
+cups-pk-helper:x:110:116:user for cups-pk-helper service,,,:/home/cups-pk-helper:/usr/sbin/nologin
+speech-dispatcher:x:111:29:Speech Dispatcher,,,:/var/run/speech-dispatcher:/bin/false
+whoopsie:x:112:117::/nonexistent:/bin/false
+kernoops:x:113:65534:Kernel Oops Tracking Daemon,,,:/:/usr/sbin/nologin
+saned:x:114:119::/var/lib/saned:/usr/sbin/nologin
+pulse:x:115:120:PulseAudio daemon,,,:/var/run/pulse:/usr/sbin/nologin
+avahi:x:116:122:Avahi mDNS daemon,,,:/var/run/avahi-daemon:/usr/sbin/nologin
+colord:x:117:123:colord colour management daemon,,,:/var/lib/colord:/usr/sbin/nologin
+hplip:x:118:7:HPLIP system user,,,:/var/run/hplip:/bin/false
+geoclue:x:119:124::/var/lib/geoclue:/usr/sbin/nologin
+gnome-initial-setup:x:120:65534::/run/gnome-initial-setup/:/bin/false
+gdm:x:121:125:Gnome Display Manager:/var/lib/gdm3:/bin/false
+itcs343:x:1000:1000:itcs343:/home/itcs343:/bin/bash
+testuser:x:1001:1001::/home/testuser:/bin/bash
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# cat /etc/group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:syslog,itcs343
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:itcs343
+floppy:x:25:
+tape:x:26:
+sudo:x:27:itcs343
+audio:x:29:pulse
+dip:x:30:itcs343
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+gnats:x:41:
+shadow:x:42:
+utmp:x:43:
+video:x:44:
+sasl:x:45:
+plugdev:x:46:itcs343
+staff:x:50:
+games:x:60:
+users:x:100:
+nogroup:x:65534:
+systemd-journal:x:101:
+systemd-network:x:102:
+systemd-resolve:x:103:
+input:x:104:
+crontab:x:105:
+syslog:x:106:
+messagebus:x:107:
+netdev:x:108:
+mlocate:x:109:
+ssl-cert:x:110:
+uuidd:x:111:
+avahi-autoipd:x:112:
+bluetooth:x:113:
+rtkit:x:114:
+ssh:x:115:
+lpadmin:x:116:itcs343
+whoopsie:x:117:
+scanner:x:118:saned
+saned:x:119:
+pulse:x:120:
+pulse-access:x:121:
+avahi:x:122:
+colord:x:123:
+geoclue:x:124:
+gdm:x:125:
+itcs343:x:1000:
+sambashare:x:126:itcs343
+testuser:x:1001:
+testgroup:x:1002:testuser
+]0;root@itcs343-VirtualBox: ~/lab6[01;32mroot@itcs343-VirtualBox[00m:[01;34m~/lab6[00m# su testuser
+]0;testuser@itcs343-VirtualBox: /home/itcs343/lab6[01;32mtestuser@itcs343-VirtualBox[00m:[01;34m/home/itcs343/lab6[00m$ whoamo[Ki
+testuser
+]0;testuser@itcs343-VirtualBox: /home/itcs343/lab6[01;32mtestuser@itcs343-VirtualBox[00m:[01;34m/home/itcs343/lab6[00m$ su itcs343
+Password: 
+su: Authentication failure
+]0;testuser@itcs343-VirtualBox: /home/itcs343/lab6[01;32mtestuser@itcs343-VirtualBox[00m:[01;34m/home/itcs343/lab6[00m$ su itcs343
+Password: 
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ user[K[K[K[Ksudo s[Kuserdel testuser
+[sudo] password for itcs343: 
+userdel: user testuser is currently used by process 2964
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ df
+Filesystem     1K-blocks    Used Available Use% Mounted on
+udev             1511660       0   1511660   0% /dev
+tmpfs             307108    1592    305516   1% /run
+/dev/sda1       10253588 5803480   3909540  60% /
+tmpfs            1535528   12136   1523392   1% /dev/shm
+tmpfs               5120       4      5116   1% /run/lock
+tmpfs            1535528       0   1535528   0% /sys/fs/cgroup
+/dev/loop1          4224    4224         0 100% /snap/gnome-calculator/406
+/dev/loop3          1024    1024         0 100% /snap/gnome-logs/61
+/dev/loop0         91264   91264         0 100% /snap/core/8268
+/dev/loop4         56064   56064         0 100% /snap/core18/1650
+/dev/loop2         15104   15104         0 100% /snap/gnome-characters/296
+/dev/loop5         15104   15104         0 100% /snap/gnome-characters/399
+/dev/loop6          3840    3840         0 100% /snap/gnome-system-monitor/127
+/dev/loop10         1024    1024         0 100% /snap/gnome-logs/81
+/dev/loop11       153600  153600         0 100% /snap/gnome-3-28-1804/67
+/dev/loop9          3840    3840         0 100% /snap/gnome-system-monitor/100
+/dev/loop13         4352    4352         0 100% /snap/gnome-calculator/544
+/dev/loop7         46080   46080         0 100% /snap/gtk-common-themes/1440
+/dev/loop12        56064   56064         0 100% /snap/core18/1668
+/dev/loop14       164096  164096         0 100% /snap/gnome-3-28-1804/116
+/dev/loop15        43904   43904         0 100% /snap/gtk-common-themes/1313
+tmpfs             307104      28    307076   1% /run/user/121
+/dev/loop16        93568   93568         0 100% /snap/core/8689
+tmpfs             307104      36    307068   1% /run/user/1000
+tmpfs             307104       0    307104   0% /run/user/1001
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ df -H
+Filesystem      Size  Used Avail Use% Mounted on
+udev            1.6G     0  1.6G   0% /dev
+tmpfs           315M  1.7M  313M   1% /run
+/dev/sda1        11G  6.0G  4.1G  60% /
+tmpfs           1.6G   13M  1.6G   1% /dev/shm
+tmpfs           5.3M  4.1k  5.3M   1% /run/lock
+tmpfs           1.6G     0  1.6G   0% /sys/fs/cgroup
+/dev/loop1      4.4M  4.4M     0 100% /snap/gnome-calculator/406
+/dev/loop3      1.1M  1.1M     0 100% /snap/gnome-logs/61
+/dev/loop0       94M   94M     0 100% /snap/core/8268
+/dev/loop4       58M   58M     0 100% /snap/core18/1650
+/dev/loop2       16M   16M     0 100% /snap/gnome-characters/296
+/dev/loop5       16M   16M     0 100% /snap/gnome-characters/399
+/dev/loop6      4.0M  4.0M     0 100% /snap/gnome-system-monitor/127
+/dev/loop10     1.1M  1.1M     0 100% /snap/gnome-logs/81
+/dev/loop11     158M  158M     0 100% /snap/gnome-3-28-1804/67
+/dev/loop9      4.0M  4.0M     0 100% /snap/gnome-system-monitor/100
+/dev/loop13     4.5M  4.5M     0 100% /snap/gnome-calculator/544
+/dev/loop7       48M   48M     0 100% /snap/gtk-common-themes/1440
+/dev/loop12      58M   58M     0 100% /snap/core18/1668
+/dev/loop14     169M  169M     0 100% /snap/gnome-3-28-1804/116
+/dev/loop15      45M   45M     0 100% /snap/gtk-common-themes/1313
+tmpfs           315M   29k  315M   1% /run/user/121
+/dev/loop16      96M   96M     0 100% /snap/core/8689
+tmpfs           315M   37k  315M   1% /run/user/1000
+tmpfs           315M     0  315M   0% /run/user/1001
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ id[Kfconfig
+
+Command 'ifconfig' not found, but can be installed with:
+
+sudo apt install net-tools
+
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ sudo apty[K[Kt install net-tools
+Reading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree       
+Reading state information... 0%Reading state information... 0%Reading state information... Done
+The following NEW packages will be installed:
+  net-tools
+0 upgraded, 1 newly installed, 0 to remove and 297 not upgraded.
+Need to get 194 kB of archives.
+After this operation, 803 kB of additional disk space will be used.
+[33m0% [Working][0m            Get:1 http://th.archive.ubuntu.com/ubuntu bionic/main amd64 net-tools amd64 1.60+git20161116.90da8a0-1ubuntu1 [194 kB]
+[33m0% [1 net-tools 0 B/194 kB 0%][0m[33m                              100% [Working][0m              Fetched 194 kB in 0s (10.3 MB/s)
+
+7[0;27r8[1ASelecting previously unselected package net-tools.
+(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 131244 files and directories currently installed.)
+Preparing to unpack .../net-tools_1.60+git20161116.90da8a0-1ubuntu1_amd64.deb ...
+7[28;0f[42m[30mProgress: [  0%][49m[39m [.........................................................] 87[28;0f[42m[30mProgress: [ 17%][49m[39m [#########................................................] 8Unpacking net-tools (1.60+git20161116.90da8a0-1ubuntu1) ...
+7[28;0f[42m[30mProgress: [ 33%][49m[39m [##################.......................................] 87[28;0f[42m[30mProgress: [ 50%][49m[39m [############################.............................] 8Processing triggers for man-db (2.8.3-2ubuntu0.1) ...
+Setting up net-tools (1.60+git20161116.90da8a0-1ubuntu1) ...
+7[28;0f[42m[30mProgress: [ 67%][49m[39m [#####################################....................] 87[28;0f[42m[30mProgress: [ 83%][49m[39m [###############################################..........] 8
+7[0;28r8[1A[J]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ nslookup www.cnn.com
+Server:		127.0.0.53
+Address:	127.0.0.53#53
+
+Non-authoritative answer:
+www.cnn.com	canonical name = turner-tls.map.fastly.net.
+Name:	turner-tls.map.fastly.net
+Address: 151.101.9.67
+Name:	turner-tls.map.fastly.net
+Address: 2a04:4e42:2::323
+
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ who
+itcs343  :0           2020-02-25 16:30 (:0)
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ w
+ 17:02:42 up 35 min,  1 user,  load average: 0.02, 0.01, 0.07
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+itcs343  :0       :0               16:30   ?xdm?  16.22s  0.00s /usr/lib/gdm3/
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ last
+itcs343  :0           :0               Tue Feb 25 16:30   still logged in
+reboot   system boot  5.0.0-23-generic Tue Feb 25 16:26   still running
+itcs343  :0           :0               Tue Feb 18 16:17 - crash (7+00:09)
+reboot   system boot  5.0.0-23-generic Tue Feb 18 16:15   still running
+itcs343  :0           :0               Tue Feb 11 16:46 - crash (6+23:29)
+reboot   system boot  5.0.0-23-generic Tue Feb 11 16:45   still running
+itcs343  :0           :0               Tue Feb 11 14:16 - crash  (02:28)
+reboot   system boot  5.0.0-23-generic Tue Feb 11 14:15   still running
+itcs343  :0           :0               Tue Feb  4 16:59 - crash (6+21:16)
+reboot   system boot  5.0.0-23-generic Tue Feb  4 16:58   still running
+itcs343  :0           :0               Tue Feb  4 16:44 - 16:58  (00:14)
+reboot   system boot  5.0.0-23-generic Tue Feb  4 16:43 - 16:58  (00:14)
+itcs343  :0           :0               Tue Feb  4 16:42 - crash  (00:01)
+reboot   system boot  5.0.0-23-generic Tue Feb  4 16:40 - 16:58  (00:18)
+
+wtmp begins Tue Feb  4 16:40:35 2020
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ uptime
+ 17:04:21 up 37 min,  1 user,  load average: 0.00, 0.00, 0.06
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ service--status-all
+service--status-all: command not found
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ service--status-all --status-all
+ [ + ]  acpid
+ [ - ]  alsa-utils
+ [ - ]  anacron
+ [ + ]  apparmor
+ [ + ]  apport
+ [ + ]  avahi-daemon
+ [ - ]  bluetooth
+ [ - ]  console-setup.sh
+ [ + ]  cron
+ [ + ]  cups
+ [ + ]  cups-browsed
+ [ + ]  dbus
+ [ - ]  dns-clean
+ [ + ]  gdm3
+ [ + ]  grub-common
+ [ - ]  hwclock.sh
+ [ - ]  irqbalance
+ [ + ]  kerneloops
+ [ - ]  keyboard-setup.sh
+ [ + ]  kmod
+ [ + ]  network-manager
+ [ + ]  networking
+ [ - ]  plymouth
+ [ - ]  plymouth-log
+ [ - ]  pppd-dns
+ [ + ]  procps
+ [ - ]  rsync
+ [ + ]  rsyslog
+ [ - ]  saned
+ [ + ]  speech-dispatcher
+ [ - ]  spice-vdagent
+ [ + ]  udev
+ [ + ]  ufw
+ [ + ]  unattended-upgrades
+ [ - ]  uuidd
+ [ + ]  whoopsie
+ [ - ]  x11-common
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ systemctl list-units -a
+[?1h=  [0;4mUNIT                      LOAD      ACTIVE   SUB       DESCRIPTION          [0m[m
+  [0;4mproc-sys-fs-binfmt_misc.automount loaded    active   waiting   Arbitrary Exec[m
+  dev-cdrom.device          loaded    active   plugged   VBOX_CD-ROM          [m
+  dev-disk-by\x2did-ata\x2dVBOX_CD\x2dROM_VB2\x2d01700376.device loaded    acti[m
+  dev-disk-by\x2did-ata\x2dVBOX_HARDDISK_VB406f6849\x2d04934d50.device loaded  [m
+  dev-disk-by\x2did-ata\x2dVBOX_HARDDISK_VB406f6849\x2d04934d50\x2dpart1.device[m
+  dev-disk-by\x2dpartuuid-beb5cf21\x2d01.device loaded    active   plugged   VB[m
+  dev-disk-by\x2dpath-pci\x2d0000:00:01.1\x2data\x2d2.device loaded    active  [m
+  dev-disk-by\x2dpath-pci\x2d0000:00:0d.0\x2data\x2d1.device loaded    active  [m
+  dev-disk-by\x2dpath-pci\x2d0000:00:0d.0\x2data\x2d1\x2dpart1.device loaded   [m
+  dev-disk-by\x2duuid-9a40921a\x2d8ad6\x2d465a\x2d9f62\x2d3a4a7f39b389.device l[m
+  dev-dvd.device            loaded    active   plugged   VBOX_CD-ROM          [m
+  dev-loop0.device          loaded    active   plugged   /dev/loop0           [m
+  dev-loop1.device          loaded    active   plugged   /dev/loop1           [m
+  dev-loop10.device         loaded    active   plugged   /dev/loop10          [m
+  dev-loop11.device         loaded    active   plugged   /dev/loop11          [m
+  dev-loop12.device         loaded    active   plugged   /dev/loop12          [m
+  dev-loop13.device         loaded    active   plugged   /dev/loop13          [m
+  dev-loop14.device         loaded    active   plugged   /dev/loop14          [m
+  dev-loop15.device         loaded    active   plugged   /dev/loop15          [m
+  dev-loop16.device         loaded    active   plugged   /dev/loop16          [m
+  dev-loop2.device          loaded    active   plugged   /dev/loop2           [m
+  dev-loop3.device          loaded    active   plugged   /dev/loop3           [m
+  dev-loop4.device          loaded    active   plugged   /dev/loop4           [m
+  dev-loop5.device          loaded    active   plugged   /dev/loop5           [m
+  dev-loop6.device          loaded    active   plugged   /dev/loop6           [m
+  dev-loop7.device          loaded    active   plugged   /dev/loop7           [m
+[7mlines 1-27[27m[K
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ history
+    1  sudo userdel testuser
+    2  df
+    3  df -H
+    4  ifconfig
+    5  sudo apt install net-tools
+    6  nslookup www.cnn.com
+    7  who
+    8  w
+    9  last
+   10  uptime
+   11  service--status-all
+   12  service --status-all
+   13  systemctl list-units -a
+   14  history
+]0;itcs343@itcs343-VirtualBox: ~/lab6[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m~/lab6[00m$ cd /var/log
+]0;itcs343@itcs343-VirtualBox: /var/log[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m/var/log[00m$ ls
+alternatives.log    btmp.1           [0m[01;34minstaller[0m          syslog.1
+alternatives.log.1  [01;34mcups[0m             [01;34mjournal[0m            [01;31msyslog.2.gz[0m
+[01;34mapt[0m                 [01;34mdist-upgrade[0m     kern.log           [01;31msyslog.3.gz[0m
+auth.log            dpkg.log         kern.log.1         [01;31msyslog.4.gz[0m
+auth.log.1          dpkg.log.1       [01;31mkern.log.2.gz[0m      [01;31msyslog.5.gz[0m
+[01;31mauth.log.2.gz[0m       faillog          [01;31mkern.log.3.gz[0m      tallylog
+[01;31mauth.log.3.gz[0m       fontconfig.log   [01;31mkern.log.4.gz[0m      [01;34munattended-upgrades[0m
+[01;31mauth.log.4.gz[0m       [01;34mgdm3[0m             lastlog            wtmp
+bootstrap.log       gpu-manager.log  [01;34mspeech-dispatcher[0m  wtmp.1
+btmp                [01;34mhp[0m               syslog
+]0;itcs343@itcs343-VirtualBox: /var/log[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m/var/log[00m$ more syslog
+Feb 25 16:32:01 itcs343-VirtualBox rsyslogd:  [origin software="rsyslogd" swVer
+sion="8.32.0" x-pid="625" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Feb 25 16:32:13 itcs343-VirtualBox anacron[643]: Job `cron.daily' terminated
+Feb 25 16:32:16 itcs343-VirtualBox PackageKit: get-updates transaction /106_aea
+cebed from uid 1000 finished with success after 739ms
+Feb 25 16:33:28 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Feb 25 16:33:38 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Feb 25 16:33:48 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Feb 25 16:33:58 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Feb 25 16:34:52 itcs343-VirtualBox crontab[2538]: (root) BEGIN EDIT (root)
+Feb 25 16:37:00 itcs343-VirtualBox anacron[643]: Job `cron.weekly' started
+Feb 25 16:37:00 itcs343-VirtualBox anacron[2574]: Updated timestamp for job `cr
+on.weekly' to 2020-02-25
+Feb 25 16:37:01 itcs343-VirtualBox anacron[643]: Job `cron.weekly' terminated
+Feb 25 16:37:01 itcs343-VirtualBox anacron[643]: Normal exit (2 jobs run)
+Feb 25 16:37:01 itcs343-VirtualBox crontab[2538]: (root) REPLACE (root)
+Feb 25 16:37:01 itcs343-VirtualBox crontab[2538]: (root) END EDIT (root)
+Feb 25 16:37:18 itcs343-VirtualBox crontab[2588]: (root) LIST (root)
+Feb 25 16:38:25 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Feb 25 16:38:35 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Feb 25 16:38:45 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+[7m--More--(31%)[27m[K]0;itcs343@itcs343-VirtualBox: /var/log[01;32mitcs343@itcs343-VirtualBox[00m:[01;34m/var/log[00m$ more syslog
+Feb 25 16:32:01 itcs343-VirtualBox rsyslogd:  [origin software="rsyslogd" swVer
+sion="8.32.0" x-pid="625" x-info="http://www.rsyslog.com"] rsyslogd was HUPed
+Feb 25 16:32:13 itcs343-VirtualBox anacron[643]: Job `cron.daily' terminated
+Feb 25 16:32:16 itcs343-VirtualBox PackageKit: get-updates transaction /106_aea
+cebed from uid 1000 finished with success after 739ms
+Feb 25 16:33:28 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Feb 25 16:33:38 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Feb 25 16:33:48 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Feb 25 16:33:58 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Feb 25 16:34:52 itcs343-VirtualBox crontab[2538]: (root) BEGIN EDIT (root)
+Feb 25 16:37:00 itcs343-VirtualBox anacron[643]: Job `cron.weekly' started
+Feb 25 16:37:00 itcs343-VirtualBox anacron[2574]: Updated timestamp for job `cr
+on.weekly' to 2020-02-25
+Feb 25 16:37:01 itcs343-VirtualBox anacron[643]: Job `cron.weekly' terminated
+Feb 25 16:37:01 itcs343-VirtualBox anacron[643]: Normal exit (2 jobs run)
+Feb 25 16:37:01 itcs343-VirtualBox crontab[2538]: (root) REPLACE (root)
+Feb 25 16:37:01 itcs343-VirtualBox crontab[2538]: (root) END EDIT (root)
+Feb 25 16:37:18 itcs343-VirtualBox crontab[2588]: (root) LIST (root)
+Feb 25 16:38:25 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Feb 25 16:38:35 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Feb 25 16:38:45 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+[7m--More--(31%)[27mr reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Feb 25 16:38:56 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Feb 25 16:39:34 itcs343-VirtualBox crontab[2594]: (root) BEGIN EDIT (root)
+Feb 25 16:39:38 itcs343-VirtualBox crontab[2594]: (root) END EDIT (root)
+Feb 25 16:42:00 itcs343-VirtualBox systemd[1]: Starting Cleanup of Temporary Di
+rectories...
+Feb 25 16:42:00 itcs343-VirtualBox systemd[1]: Started Cleanup of Temporary Dir
+ectories.
+Feb 25 16:44:43 itcs343-VirtualBox gnome-shell[1911]: Some code accessed the pr
+operty 'WindowPreviewMenu' on the module 'windowPreview'. That property was def
+ined with 'let' or 'const' inside the module. This was previously supported, bu
+t is not correct according to the ES6 standard. Any symbols to be exported from
+ a module must be defined with 'var'. The property access will work as previous
+ly for the time being, but please fix your code anyway.
+Feb 25 16:47:38 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.199:123 (ntp.ubuntu.com).
+Feb 25 16:47:48 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.94.4:123 (ntp.ubuntu.com).
+Feb 25 16:47:59 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.89.198:123 (ntp.ubuntu.com).
+Feb 25 16:48:09 itcs343-VirtualBox systemd-timesyncd[578]: Timed out waiting fo
+r reply from 91.189.91.157:123 (ntp.ubuntu.com).
+Feb 25 16:57:41 itcs343-VirtualBox systemd[1]: Created slice User Slice of test
+user.
+Feb 25 16:57:41 itcs343-VirtualBox systemd[1]: Starting User Manager for UID 10
+01...
+[7m--More--(58%)[27mFeb 25 16:57:41 itcs343-VirtualBox systemd[1]: Started Session 3 of user testus
+er.
+Feb 25 16:57:41 itcs343-VirtualBox systemd[2964]: Listening on GnuPG cryptograp
+hic agent and passphrase cache (restricted).
+Feb 25 16:57:41 it

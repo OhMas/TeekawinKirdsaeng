@@ -1,0 +1,21 @@
+Explain for each question
+
+2.For this ls -l /bin | more command is to tell all file in bin and all of sub-file in bin.
+
+3.Options -il is option to list a detail.
+
+4.Process number and other information which is dynamic to take all the file to system
+
+9.Indoes look like command ls but inodes can give a more detail.
+
+13.It already have file in system and some file which is difference form other because in node and process number both are difference.
+
+16.The result of test3.txt can't open it because I already remove test2.txt.
+
+18.It impossible to do the hard link because you can't make the hard link with directory.
+
+19.On sample3 make the soft link with sample1 because you can't make hard link with directory.
+
+20.The result for this command will display any connect in disk
+
+21.The result for this command will display the disk that is used in /etc.
