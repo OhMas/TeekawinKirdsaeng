@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Activity 2</title>
+    </head>
+    <body bgcolor="#E6F2FF">
+        <!-- Your Code for Activity 1 -->
+        <fieldset>
+        <legend><h1>Registration</h1></legend>
+        <form action = "ActivityR.html" method ="POST">
+        <table border="1" align="center">
+            <tr bgcolor=white>
+            <th colspan="2"><h1>Please fill in your personal info</h1></th>
+            </tr>
+           <tr>
+               <td bgcolor=white align="center">
+                <b>Student ID</b>
+               </td>
+               <td bgcolor=white>
+                <input type="text" name="studentid" maxlength="7" pattern="[0-9]{7}">
+               </td>
+           </tr>
+
+           <tr>
+            <td bgcolor=white align="center">
+                <b>First name</b>
+            </td>
+            <td bgcolor=white>
+             <input type="text" name="firstname" pattern="[a-zA-Z]+">
+            </td>
+         </tr>
+
+         <tr>
+            <td bgcolor=white align="center">
+                <b>Last name</b>
+            </td>
+            <td bgcolor=white>
+             <input type="text" name="lastname"pattern="[a-zA-Z]+">
+            </td>
+         </tr>
+
+         <tr>
+            <td bgcolor=white align="center">
+                <b>Birthday</b>
+            </td>
+            <td bgcolor=white>
+                <input type="date" name="bd_d"
+            </td>
+         </tr>
+
+         <tr>
+            <td bgcolor=white align="center">
+                <b>Gender</b>
+            </td>
+            <td bgcolor=white>
+                <input type="radio" name="gender" value="Female" checked>Female
+                <input type="radio" name="gender" value="Male">Male
+            </td>
+         </tr>
+
+         <tr>
+            <td bgcolor=white>
+                <p align="center"><b>Hobbies</b></p>
+            </td>
+            <td bgcolor=white>
+                <input type="checkbox" name="hobbies" value="DI">Drawing<br>
+                <input type="checkbox" name="hobbies" value="HK">Hiking<br>
+                <input type="checkbox" name="hobbies" value="PI">Programming<br>
+                <input type="checkbox" name="hobbies" value="PG">Photography<br>
+                <input type="checkbox" name="hobbies" value="RI">Running<br>
+            </td>
+         </tr>
+
+         <tr>
+            <td bgcolor=white align="center">
+              <b>E-mail</b>
+            </td>
+            <td bgcolor=white>
+                <input type="email" name="MUemail" placeholder="---E-mail---" required>
+            </td>
+         </tr>
+
+
+           </table>
+           
+        <center><br><button type="submit">Submit</button>
+        <button type="reset">Clear</button></center>
+
+        </form>
+
+        </fieldset>
+
+    </body>
+</html>
