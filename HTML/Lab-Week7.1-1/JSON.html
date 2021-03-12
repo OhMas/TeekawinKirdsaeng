@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+
+$(document).ready(function(){
+$("#submit").click(function(){
+    $(this).show();
+    console.log($("#studentid").val());
+    console.log($("#firstname").val());
+    console.log($("#lastname").val());
+   
+    
+  });
+});
+
+$(document).ready(function(){
+  $("#flip").click(function(){
+    $("#panel").slideDown("slow");
+  });
+});
+
+var box = [];
+function submit(){
+    var id = document.getElementById("studentid");
+    var first = document.getElementById("firstname");
+    var last = document.getElementById("lastname");
+}
+
+$(document).ready(function(){
+        $("#submit").click(function(){
+            var box1 = {
+                id:studentid.value,
+                first:firstname.value,
+                last:lastname.value
+            };
+            box.push(box1);
+            console.log(box);
+        });
+});
+
+
+</script>
+<style> 
+    #panel, #flip {
+      padding: 5px;
+      text-align: center;
+      background-color: gold;
+      border: solid 2px #4A4F54;
+    }
+    
+    #panel {
+      padding: 50px;
+      display: none;
+    }
+    </style>
+</head>
+<body>
+    <div id="flip">Click to slide down panel</div>
+    <div id="panel">
+        StudentID: <input type="text" id="studentid"><br><br>
+        FirstName: <input type="text" id="firstname" ><br><br>
+        LastName: <input type="text" id="lastname"><br><br>
+        <button id="submit">submit</button>
+    </div>
+    
+
+    
+
+
+</body>
+</html>
