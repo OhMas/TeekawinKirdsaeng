@@ -1,0 +1,29 @@
+<script type="application/javascript">
+
+var a=[0,1];
+console.log("Using while loops");
+console.log("Fibonacci series less than 40");
+
+for(var i=2;i<100;i++)
+{
+    var s;
+    s = a[i-2]+a[i-1];
+    if(s>40)
+    {
+        break;
+    }
+    else{
+        a.push(s);
+    }
+    
+}
+for(var j=0;j<a.length;j++)
+{
+    console.log(a[j]);
+}
+
+
+
+
+
+</script>
