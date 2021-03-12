@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Student Info</title> 
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type">
+    <meta content="utf-8" http-equiv="encoding">       
+    <style>
+        table, th, td {
+          border: 1px solid black;
+          margin-left: auto;
+          margin-right: auto;
+        }
+    </style>      
+</head>
+
+<body style="text-align: center">
+    <h2>Choose Action</h2>   
+    <select id="select">   
+        <option id="c0">--Please choose an option--</option>   
+        <option id="c1">Insert</option>              
+        <option id="c2">Update</option>        
+        <option id="c3">Delete</option>       
+        <option id="c4">Select</option>    
+        <option id="c5">Select All</option>         
+    </select><br><br>   
+    <form id="Form1">    
+        <h3>Insert</h3>  
+        <table style="width:30%">
+        <tr><td>Student ID</td><td><input name="Screen" id="input1" type="Text" size="24" value=""></td></tr>
+        <tr><td>Firstname</td><td><input name="Screen" id="input2" type="Text" size="24" value=""></td></tr>
+        <tr><td>Lastname</td><td><input name="Screen" id="input3" type="Text" size="24" value=""></td></tr>
+        <tr><td>Date of Birth</td><td><input name="Screen" id="input4" type="Text" size="24" value=""></td></tr>
+        <tr><td>Phone Number</td><td><input name="Screen" id="input5" type="Text" size="24" value=""></td></tr>
+        </table><br><br>
+
+        <input id="btn1" style="width: 200px" type="Button" value="Insert" onclick="Insert()">  
+
+        <br><br><div id="Result1"></div> 
+    </form>
+    <form id="Form2">    
+        <h3>Update</h3>  
+        <table style="width:30%">
+        <tr><td>Student ID</td><td><input name="Screen" id="input6" type="Text" size="24" value=""></td></tr>
+        <tr><td>Firstname</td><td><input name="Screen" id="input7" type="Text" size="24" value=""></td></tr>
+        <tr><td>Lastname</td><td><input name="Screen" id="input8" type="Text" size="24" value=""></td></tr>
+        <tr><td>Date of Birth</td><td><input name="Screen" id="inpu9" type="Text" size="24" value=""></td></tr>
+        <tr><td>Phone Number</td><td><input name="Screen" id="input10" type="Text" size="24" value=""></td></tr>
+        </table><br><br> 
+
+        <input id="btn2" style="width: 200px" type="Button" value="Update" onclick="Update()">  
+
+        <br><br><div id="Result2"></div> 
+    </form>
+    <form id="Form3">    
+        <h3>Delete</h3>  
+        <table style="width:30%">
+        <tr><td>Student ID</td><td><input name="Screen" id="input11" type="Text" size="24" value=""></td></tr>
+        </table><br><br> 
+
+        <input id="btn3" style="width: 200px" type="Button" value="Delete" onclick="Delete()">  
+
+        <br><br><div id="Result3"></div> 
+    </form>
+    <form id="Form4">    
+        <h3>Select</h3>  
+        <table style="width:30%">
+        <tr><td>Student ID</td><td><input name="Screen" id="input12" type="Text" size="24" value=""></td></tr>
+        </table><br><br>   
+
+        <input id="btn4" style="width: 200px" type="Button" value="Select" onclick="Select()">  
+
+        <br><br><div id="Result4"></div> 
+    </form>
+    <form id="Form5">    
+        <h3>Select All</h3>  
+
+        <input id="btn5" style="width: 200px" type="Button" value="Select All" onclick="Select_All()">  
+
+        <br><br><div id="Result5"></div> 
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {    
+            $("#Form1").hide();  
+            $("#Form2").hide(); 
+            $("#Form3").hide(); 
+            $("#Form4").hide(); 
+            $("#Form5").hide();          
+            $("#select").change(function () {    
+                $("#Form1").hide();  
+                $("#Form2").hide(); 
+                $("#Form3").hide(); 
+                $("#Form4").hide(); 
+                $("#Form5").hide();    
+                switch ($(this).val()) {  
+                    case "Insert":          
+                        $("#Form1").show(); 
+                        break;
+                    case "Update":         
+                        $("#Form2").show();    
+                        break;
+                    case "Delete":        
+                        $("#Form3").show();    
+                        break;
+                    case "Select":   
+                        $("#Form4").show();     
+                        break;
+                    case "Select All":    
+                        $("#Form5").show();  
+                        break;
+                }
+            });
+        });
+
+        function Insert() {
+            STU_ID=$("#input1").val();
+            F_NAME=$("#input2").val();
+            L_NAME=$("#input3").val();
+            DOB=$("#input4").val();
+            PHONE=$("#input5").val();
+            $.post('http://localhost:3000/personal_info/'+STU_ID+'/'+F_NAME+'/'+L_NAME+'/'+DOB+'/'+PHONE, function(data) {
+                var text = `Result: ${data.message}<br>`
+                $("#Result1").html(text);
+            });
+        }
+
+        function Update() {
+            STU_ID=$("#input6").val();
+            F_NAME=$("#input7").val();
+            L_NAME=$("#input8").val();
+            DOB=$("#input9").val();
+            PHONE=$("#input10").val();
+            $.ajax({
+                url: 'http://localhost:3000/personal_info/'+STU_ID+'/'+F_NAME+'/'+L_NAME+'/'+DOB+'/'+PHONE,
+                type: 'PUT',
+                success: function(result) {
+                    $("#Result2").html('Student has been updated successfully.');
+                }
+            });
+        }
+
+        function Delete() {
+            STU_ID=$("#input11").val();
+            $.ajax({
+                url: 'http://localhost:3000/personal_info/'+STU_ID,
+                type: 'DELETE',
+                success: function(result) {
+                    $("#Result3").html('Student has been deleted successfully.');
+                }
+            });
+        }
+
+        function Select() {
+            STU_ID=$("#input12").val();
+            $.getJSON('http://localhost:3000/personal_info/'+STU_ID, function(data) {
+                var text = `Student ID: ${data.data.StudentID}<br>
+                    Firstname: ${data.data.Firstname}<br>
+                    Lastname: ${data.data.Lastname}<br>
+                    DOB: ${data.data.DOB}<br>
+                    Mobilephone: ${data.data.Mobilephone}<br>`
+                $("#Result4").html(text);
+            });
+        }
+
+        function Select_All() {
+            $.getJSON('http://localhost:3000/personal_info/', function(data) {
+                var textall = ''
+                for(var i=0;i<data.data.length;i++){
+                var text = `Student ID: ${data.data[i].StudentID}<br>
+                    Firstname: ${data.data[i].Firstname}<br>
+                    Lastname: ${data.data[i].Lastname}<br>
+                    DOB: ${data.data[i].DOB}<br>
+                    Mobilephone: ${data.data[i].Mobilephone}<br><br>`
+                textall += text;
+                }
+                $("#Result5").html(textall);
+            });
+        }
+    </script>
+</body>

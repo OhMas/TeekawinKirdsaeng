@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* Set the size of the div element that contains the map */
+        #map {
+            height: 600px;
+            /* The height is 400 pixels */
+            width: 100%;
+            /* The width is the width of the web page */
+        }
+    </style>
+</head>
+
+<body>
+    <h3>
+        ICT on Google Maps
+    </h3>
+    <!--The div element for the map -->
+    <div id="map">
+    </div>
+    <script>
+        function initMap() {
+            var map = new google.maps.Map(document.getElementById('map'),
+                { zoom: 18.5, center: { lat: 13.794268, lng: 100.324783 }, mapTypeId: 'terrain' });
+            // The location of Uluru         
+            var MUICT = { lat: 13.794417, lng: 100.324635 };         // The map, centered at ICT         
+            var map = new google.maps.Map(document.getElementById('map'), { zoom: 18.5, center: MUICT });         // The marker, positioned at ICT         
+            var marker = new google.maps.Marker({ position: MUICT, map: map });         // Define the LatLng coordinates for the polygon's path.         
+            var triangleCoords = [
+                { lat: 13.795055, lng: 100.324467 }, 
+                { lat: 13.793938, lng: 100.324463 }, 
+                { lat: 13.793937, lng: 100.324731 }, 
+                { lat: 13.794264, lng: 100.324736 }, 
+                { lat: 13.794268, lng: 100.324783 }, 
+                { lat: 13.794676, lng: 100.324780 }, 
+                { lat: 13.794672, lng: 100.324740 }, 
+                { lat: 13.795056, lng: 100.324732 }];         // Polygon.         
+            var bermudaTriangle = new google.maps.Polygon({ paths: triangleCoords, strokeColor: '#FF0000', strokeOpacity: 0.8, strokeWeight: 2, fillColor: '#FF0000', fillOpacity: 0.35 }); bermudaTriangle.setMap(map);
+        }     
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js? key=AIzaSyBoNR9JxOqGBYtObBpS6mf0gQ_4xIRonWI&callback=initMap"></script>
+</body>
+
+</html>
